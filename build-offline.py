@@ -26,13 +26,13 @@ load_line = "const [items,photos,cities]=await Promise.all([loadJson('produce.js
 assert load_line in app
 app = app.replace(load_line, "const [items,photos,cities]=JSON.parse(document.getElementById('offline-data').textContent);")
 payload = json.dumps([items, photos, cities], ensure_ascii=False).replace('<', '\\u003c')
-html = html.replace('<script type="module" src="app.mjs?v=2"></script>', f'<script id="offline-data" type="application/json">{payload}</script><script type="module">{app}</script>')
-html = html.replace('<link rel="stylesheet" href="style.css?v=2">', '<style>' + (dist / 'style.css').read_text() + '</style>')
+html = html.replace('<script type="module" src="app.mjs?v=3"></script>', f'<script id="offline-data" type="application/json">{payload}</script><script type="module">{app}</script>')
+html = html.replace('<link rel="stylesheet" href="style.css?v=3">', '<style>' + (dist / 'style.css').read_text() + '</style>')
 mark = 'data:image/svg+xml;base64,' + base64.b64encode((dist / 'assets/mark.svg').read_bytes()).decode()
 html = html.replace('assets/mark.svg', mark)
 license_url = 'data:text/plain;base64,' + base64.b64encode((dist / 'licenses/city-geo-LICENSE.txt').read_bytes()).decode()
 html = html.replace('href="licenses/city-geo-LICENSE.txt"', f'href="{license_url}" download="city-geo-LICENSE.txt"')
 html = html.replace('href="./"', 'href="?"')
-assert 'src="app.mjs?v=2"' not in html and 'href="style.css?v=2"' not in html
+assert 'src="app.mjs?v=3"' not in html and 'href="style.css?v=3"' not in html
 (root / 'preview.html').write_text(html)
 print(f'Portable preview: {root / "preview.html"} ({len(html.encode()) / 1024 / 1024:.2f} MiB)')

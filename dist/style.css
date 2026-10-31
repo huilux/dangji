@@ -149,8 +149,20 @@ body:has(dialog[open]) { overflow: hidden; }
 .detail-intro { align-self: center; }
 .detail-intro h2 { margin: 6px 0; font-size: 30px; font-weight: 600; }
 .detail-category { color: var(--muted); font-size: 12px; }
-.detail-taste { font-size: 15px; margin-bottom: 12px; }
-.detail-intro p { color: var(--muted); font-size: 12px; margin-top: 6px; }
+.detail-taste { font-size: 16px; }
+.detail-overview { margin: 0 30px 24px; padding: 24px; border-radius: var(--radius); background: #f2f6f2; }
+.detail-season-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+.detail-overview h3 { font-size: 16px; font-weight: 600; }
+.detail-overview .status-tag { font-size: 13px; padding: 3px 9px; }
+.season-range { margin-top: 4px; color: var(--ink); font-size: 24px; font-weight: 600; }
+.detail-months { display: grid; grid-template-columns: repeat(12,minmax(0,1fr)); gap: 6px; margin: 14px 0 8px; }
+.detail-months span { padding: 8px 0; border-radius: 6px; background: #e4eae4; text-align: center; color: var(--muted); font-size: 13px; }
+.detail-months .in-season { background: var(--ink); color: white; font-weight: 600; }
+.calendar-note { color: var(--muted); font-size: 13px; }
+.detail-origins { margin-top: 20px; }
+.detail-origins p { margin-top: 6px; font-size: 16px; line-height: 1.8; }
+.season-note { margin-top: 14px; font-size: 14px; }
+.region-scope { margin-top: 8px; color: var(--muted); font-size: 13px; }
 .detail-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; padding: 0 30px 24px; }
 .detail-block { padding: 22px; border-radius: var(--radius); background: var(--ground); }
 .detail-block h3 { font-size: 18px; margin-bottom: 12px; }
@@ -160,19 +172,9 @@ body:has(dialog[open]) { overflow: hidden; }
 .detail-caution { margin-top: 16px; padding-top: 13px; border-top: 1px solid #d2dbce; }
 .detail-caution strong { display: block; margin-bottom: 4px; font-size: 13px; font-weight: 600; }
 .detail-caution p { font-size: 14px; }
-.detail-section { padding: 0 30px 22px; }
-.detail-section summary { display: flex; align-items: center; justify-content: space-between; min-height: 48px; cursor: pointer; color: var(--ink); font-size: 16px; font-weight: 550; list-style: none; }
-.detail-section summary::-webkit-details-marker { display: none; }
-.detail-section summary::after { content: "+"; font-size: 22px; font-weight: 400; }
-.detail-section details[open] summary::after { content: "−"; }
-.detail-section summary span { color: var(--muted); font-size: 12px; font-weight: 400; margin-left: auto; padding-right: 16px; }
-.detail-months { display: grid; grid-template-columns: repeat(12,1fr); gap: 6px; margin: 10px 0 14px; }
-.detail-months span { padding: 8px 0; border-radius: 5px; background: var(--ground); text-align: center; color: var(--muted); font-size: 12px; }
-.detail-months .in-season { background: var(--mint); color: var(--ink); font-weight: 600; }
-.detail-section p { font-size: 14px; line-height: 1.8; }
 .source-section { padding: 0 30px 30px; }
-.source-section summary { min-height: 44px; cursor: pointer; color: var(--muted); font-size: 12px; }
-.source-section p, .source-section a { font-size: 12px; line-height: 1.8; }
+.source-section summary { min-height: 44px; cursor: pointer; color: var(--muted); font-size: 14px; }
+.source-section p, .source-section a { font-size: 14px; line-height: 1.8; }
 .source-section a { display: block; margin-top: 10px; text-decoration: underline; text-underline-offset: 3px; overflow-wrap: anywhere; }
 .source-note { color: var(--muted); margin-top: 12px; }
 .utility-dialog { width: min(540px,calc(100% - 40px)); padding: 32px; }
@@ -210,22 +212,22 @@ body:has(dialog[open]) { overflow: hidden; }
   .month-top>span { display: inline; }
 }
 @media (max-width:760px) {
-  .header-inner, .page, .site-footer { padding-inline: 20px; }
+  .header-inner, .page, .site-footer { padding-left: max(20px,env(safe-area-inset-left)); padding-right: max(20px,env(safe-area-inset-right)); }
   .header-inner { flex-wrap: wrap; min-height: 0; gap: 0; padding-top: 14px; }
   .brand { font-size: 18px; gap: 9px; }
   .brand img { width: 33px; height: 33px; }
   .brand-note { font-size: 11px; letter-spacing: 0; margin-top: 2px; }
-  .city-trigger { font-size: 12px; }
+  .city-trigger { font-size: 14px; }
   .city-trigger svg { width: 15px; height: 15px; }
   nav { order: 3; width: 100%; gap: 28px; margin-top: 8px; }
-  .nav-link { min-height: 44px; font-size: 13px; }
+  .nav-link { min-height: 44px; font-size: 15px; }
   .intro { padding-block: 22px 16px; }
   .intro h1 { font-size: 25px; letter-spacing: 0; }
   .intro p { display: none; }
   .intro>.text-button { display: none; }
   .month-panel { padding: 6px 14px; }
-  .month-toggle { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 44px; padding: 0; text-align: left; font-size: 13px; }
-  .month-toggle>span:first-child { color: var(--muted); font-size: 12px; }
+  .month-toggle { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 44px; padding: 0; text-align: left; font-size: 15px; }
+  .month-toggle>span:first-child { color: var(--muted); font-size: 14px; }
   #selected-month { margin-left: auto; font-weight: 550; }
   .month-toggle svg { width: 17px; height: 17px; }
   .month-toggle[aria-expanded=true] svg { transform: rotate(180deg); }
@@ -237,29 +239,31 @@ body:has(dialog[open]) { overflow: hidden; }
   .month-button { min-height: 44px; }
   .month-number { font-size: 15px; }
   .month-suffix { font-size: 11px; }
-  .browse-tools { flex-wrap: wrap; gap: 10px; padding-block: 14px 10px; }
+  .browse-tools { top: env(safe-area-inset-top); flex-wrap: wrap; gap: 10px; padding-block: 14px 10px; }
   .search { order: 0; width: 100%; height: 44px; }
+  .search input { font-size: 16px; }
   .category-tabs { order: 1; gap: 4px; }
-  .category-tabs button { padding: 8px 16px; font-size: 13px; }
-  .category-tabs span { font-size: 11px; }
-  .catalog-heading { margin-top: 2px; gap: 8px; }
-  .catalog-heading h2 { font-size: 16px; }
-  .catalog-heading p { font-size: 11px; }
+  .category-tabs button { padding: 8px 16px; font-size: 15px; }
+  .category-tabs span { font-size: 13px; }
+  .catalog-heading { margin-top: 2px; gap: 4px 10px; flex-wrap: wrap; }
+  .catalog-heading h2 { font-size: 18px; }
+  .catalog-heading p { font-size: 13px; }
   .region-note { margin-bottom: 12px; align-items: flex-start; gap: 6px; }
   .region-note svg { margin-top: 3px; }
-  .region-note p { font-size: 11px; }
+  .region-note p { font-size: 13px; }
   .region-note>.text-button { display: none; }
-  .produce-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
-  .card-image { aspect-ratio: 1.18; }
-  .card-body { padding: 13px 12px 12px; }
-  .card-heading h3 { font-size: 19px; }
-  .card-kind { font-size: 11px; }
-  .card-taste { font-size: 12px; min-height: 41px; margin-top: 4px; }
-  .card-months { font-size: 11px; gap: 4px; margin-top: 6px; }
-  .card-months svg { display: none; }
-  .status-tag { font-size: 11px; padding: 2px 5px; }
-  .card-pick { font-size: 13px; min-height: 64px; margin-top: 10px; }
-  .card-footer { padding-top: 11px; font-size: 12px; }
+  .produce-grid { grid-template-columns: minmax(0,1fr); gap: 12px; }
+  .card-link { display: grid; grid-template-columns: 30% minmax(0,1fr); }
+  .card-link .card-image { height: 100%; aspect-ratio: auto; }
+  .card-body { padding: 15px 14px; }
+  .card-heading h3 { font-size: 21px; }
+  .card-kind { font-size: 13px; }
+  .card-taste { font-size: 14px; min-height: 0; margin-top: 5px; }
+  .card-months { font-size: 14px; gap: 5px; margin-top: 8px; color: var(--ink); }
+  .card-months svg { width: 15px; height: 15px; }
+  .status-tag { font-size: 12px; padding: 2px 6px; }
+  .card-pick { display: none; }
+  .card-footer { padding-top: 10px; font-size: 14px; }
   .little-guide { align-items: flex-start; padding: 20px; gap: 14px; margin: 24px 0; }
   .little-guide>svg { width: 30px; height: 30px; }
   .little-guide h2 { font-size: 16px; }
@@ -268,27 +272,31 @@ body:has(dialog[open]) { overflow: hidden; }
   .site-footer { display: block; padding-block: 18px 26px; }
   .footer-links { flex-wrap: wrap; gap: 0 20px; margin-top: 12px; }
   .footer-links>span { width: 100%; }
-  .detail-dialog { width: calc(100% - 20px); max-height: 94dvh; border-radius: 14px; }
-  .detail-toolbar { min-height: 54px; padding-inline: 16px; }
+  .site-header { padding-top: env(safe-area-inset-top); }
+  .site-footer { padding-bottom: max(26px,env(safe-area-inset-bottom)); }
+  .detail-dialog { inset: 0; width: 100%; max-width: none; height: 100dvh; max-height: none; margin: 0; border-radius: 0; padding-bottom: env(safe-area-inset-bottom); scrollbar-width: thin; }
+  .detail-toolbar { min-height: calc(56px + env(safe-area-inset-top)); padding-top: env(safe-area-inset-top); padding-left: max(20px,env(safe-area-inset-left)); padding-right: max(20px,env(safe-area-inset-right)); font-size: 14px; }
+  .dialog-back { min-height: 48px; font-size: 16px; }
   .key-hint { display: none; }
-  .detail-top { grid-template-columns: 102px 1fr; gap: 16px; padding: 20px 18px; }
-  .detail-top .card-image { height: 126px; aspect-ratio: auto; }
-  .detail-intro h2 { font-size: 25px; margin: 4px 0; }
-  .detail-category { font-size: 11px; }
-  .detail-taste { font-size: 13px; margin-bottom: 9px; }
-  .detail-intro p { font-size: 11px; margin-top: 5px; }
-  .detail-columns { grid-template-columns: 1fr; gap: 14px; padding: 0 18px 18px; }
+  #detail-content { padding-left: env(safe-area-inset-left); padding-right: env(safe-area-inset-right); }
+  .detail-top { grid-template-columns: 100px minmax(0,1fr); gap: 18px; padding: 20px; }
+  .detail-top .card-image { height: 116px; aspect-ratio: auto; }
+  .detail-intro h2 { font-size: 28px; margin: 3px 0; }
+  .detail-category { font-size: 14px; }
+  .detail-taste { font-size: 15px; }
+  .detail-overview { margin: 0 20px 20px; padding: 18px; }
+  .season-range { font-size: 23px; }
+  .detail-months { grid-template-columns: repeat(6,minmax(0,1fr)); }
+  .detail-origins { margin-top: 18px; }
+  .detail-columns { grid-template-columns: 1fr; gap: 14px; padding: 0 20px 20px; }
   .detail-block { padding: 18px; }
   .detail-block h3 { font-size: 17px; }
   .detail-block p, .detail-block li { font-size: 16px; }
-  .detail-section { padding: 0 18px 14px; }
-  .detail-section summary { font-size: 15px; }
-  .detail-section summary span { font-size: 11px; padding-right: 10px; }
-  .detail-months { grid-template-columns: repeat(6,1fr); }
-  .source-section { padding: 0 18px 24px; }
+  .source-section { padding: 0 20px 28px; }
   .utility-dialog { padding: 26px 23px; }
   .utility-dialog h2 { font-size: 21px; }
   .utility-dialog p { font-size: 14px; }
+  .city-input-row input { font-size: 16px; }
   .empty-state { padding: 32px 16px; }
   .empty-state h3 { font-size: 19px; }
 }
@@ -296,9 +304,9 @@ body:has(dialog[open]) { overflow: hidden; }
   .header-inner, .page, .site-footer { padding-inline: 14px; }
   .brand { font-size: 17px; }
   .month-list { grid-template-columns: repeat(4,minmax(0,1fr)); }
-  .city-trigger { font-size: 11px; }
+  .city-trigger { font-size: 13px; }
   .produce-grid { gap: 10px; }
-  .card-body { padding-inline: 10px; }
+  .card-body { padding-inline: 12px; }
   .detail-top { grid-template-columns: 85px 1fr; gap: 12px; }
 }
 @media (prefers-reduced-motion:reduce) {

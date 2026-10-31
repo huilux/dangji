@@ -33,7 +33,7 @@ function card(item) {
   const inSeason = item.months.includes(state.month);
   const showStatus = state.mode === 'all' || state.query.trim() || item.seasonKind;
   const status = showStatus ? `<span class="status-tag ${inSeason ? '' : 'off-season'}">${inSeason ? escape(item.seasonKind || '参考当季') : '查看产季'}</span>` : '';
-  return `<article class="produce-card"><a class="card-link" href="#produce/${escape(item.id)}" aria-label="查看${escape(item.name)}的挑选和保存方法"><div class="card-image">${photoHtml(item)}</div><div class="card-body"><div class="card-heading"><h3>${escape(item.name)}</h3><span class="card-kind">${item.category === 'fruit' ? '水果' : '蔬菜'}</span></div><p class="card-taste">${escape(item.taste)}</p><p class="card-months"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="16" height="15" rx="2"/><path d="M8 3v5m8-5v5M4 11h16"/></svg><span>${escape(monthLabel(item.months))}</span>${status}</p><p class="card-pick"><span>挑选要点</span>${escape(item.pick[0])}</p><div class="card-footer"><span>挑选与保存</span><span aria-hidden="true">→</span></div></div></a></article>`;
+  return `<article class="produce-card"><a class="card-link" href="#produce/${escape(item.id)}" aria-label="查看${escape(item.name)}的产季、产区和选购指南"><div class="card-image">${photoHtml(item)}</div><div class="card-body"><div class="card-heading"><h3>${escape(item.name)}</h3><span class="card-kind">${item.category === 'fruit' ? '水果' : '蔬菜'}</span></div><p class="card-taste">${escape(item.taste)}</p><p class="card-months"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="16" height="15" rx="2"/><path d="M8 3v5m8-5v5M4 11h16"/></svg><span><span class="sr-only">参考产季：</span>${escape(monthLabel(item.months))}</span>${status}</p><p class="card-pick"><span>挑选要点</span>${escape(item.pick[0])}</p><div class="card-footer"><span>产季 · 产区 · 选购</span><span aria-hidden="true">→</span></div></div></a></article>`;
 }
 
 function render() {
@@ -69,7 +69,37 @@ function openDetail(item) {
   const inSeason = item.months.includes(state.month);
   const sourceRows = item.sources.map(s => `<a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">${escape(s.title)} ↗</a>`).join('');
   const photo = photoFor(item);
-  $('#detail-content').innerHTML = `<div class="detail-top"><div class="card-image">${photoHtml(item,'detail-photo','eager')}</div><div class="detail-intro"><span class="detail-category">${item.category === 'fruit' ? '水果' : '蔬菜'}</span><h2 id="detail-name">${escape(item.name)}</h2><div class="detail-taste">${escape(item.taste)}</div><span class="status-tag ${inSeason ? '' : 'off-season'}">${inSeason ? `${state.month}月 · ${escape(item.seasonKind || '参考当季')}` : `${state.month}月 · 未列入参考期`}</span><p>参考产季：${escape(monthLabel(item.months))}</p></div></div><div class="detail-columns"><section class="detail-block"><h3>到摊位前，怎么挑？</h3><ul>${item.pick.map(t=>`<li>${escape(t)}</li>`).join('')}</ul><div class="detail-caution"><strong>多留意这一点</strong><p>${escape(Array.isArray(item.avoid) ? item.avoid.join('；') : item.avoid)}</p></div></section><section class="detail-block"><h3>买回家，怎么放？</h3><p>${escape(item.storage)}</p></section></div><section class="detail-section"><details><summary>产季与常见产区<span>${escape(monthLabel(item.months))}</span></summary><div class="detail-months" aria-label="参考当季月份：${escape(monthLabel(item.months))}">${Array.from({length:12},(_,i)=>`<span class="${item.months.includes(i+1) ? 'in-season' : ''}">${i+1}月</span>`).join('')}</div><p>常见产区：${escape(item.origins)}</p><p class="source-note">${escape(item.notes || '月份为常见产区的宽泛参考，品种、产地与天气都会影响上市时间。')}</p></details></section><section class="source-section"><details><summary>资料出处与适用范围 · 核对于 ${escape(item.checkedAt)}</summary><p>适用于通用家庭选购参考，不代表${escape(state.city || '某个城市')}实时供应。</p>${sourceRows}<p class="source-note">季节与挑选保存信息可能参考不同资料；月份为宽泛区间，保存应以食材状态和商品标签为准。</p>${photo ? `<p class="source-note">图片：${escape(photo.author || '作者见来源')} · ${escape(photo.license || '')} <a href="${safeUrl(photo.sourceUrl)}" target="_blank" rel="noopener noreferrer">图片来源及许可 ↗</a></p>` : ''}</details></section>`;
+  $('#detail-content').innerHTML = `
+    <div class="detail-top">
+      <div class="card-image">${photoHtml(item,'detail-photo','eager')}</div>
+      <div class="detail-intro">
+        <span class="detail-category">${item.category === 'fruit' ? '水果' : '蔬菜'}</span>
+        <h2 id="detail-name">${escape(item.name)}</h2>
+        <p class="detail-taste">${escape(item.taste)}</p>
+      </div>
+    </div>
+    <section class="detail-overview" aria-labelledby="season-heading">
+      <div class="detail-season-heading">
+        <h3 id="season-heading">参考产季</h3>
+        <span class="status-tag ${inSeason ? '' : 'off-season'}">${inSeason ? `${state.month}月 · ${escape(item.seasonKind || '参考当季')}` : `${state.month}月 · 未列入参考期`}</span>
+      </div>
+      <p class="season-range">${escape(monthLabel(item.months))}</p>
+      <div class="detail-months" aria-label="参考产季：${escape(monthLabel(item.months))}">
+        ${Array.from({length:12},(_,i)=>`<span class="${item.months.includes(i+1) ? 'in-season' : ''}" aria-label="${i+1}月，${item.months.includes(i+1) ? '参考产季' : '未列入参考期'}">${i+1}月</span>`).join('')}
+      </div>
+      <p class="calendar-note">深绿色为参考产季，具体时间因产地而异。</p>
+      <div class="detail-origins">
+        <h3>常见产区</h3>
+        <p>${escape(item.origins)}</p>
+      </div>
+      <p class="season-note">${escape(item.notes || '月份为常见产区的宽泛参考，品种、产地与天气都会影响上市时间。')}</p>
+      <p class="region-scope">通用产区参考，不代表${escape(state.city || '所在城市')}实时供应。</p>
+    </section>
+    <div class="detail-columns">
+      <section class="detail-block"><h3>到摊位前，怎么挑？</h3><ul>${item.pick.map(t=>`<li>${escape(t)}</li>`).join('')}</ul><div class="detail-caution"><strong>多留意这一点</strong><p>${escape(Array.isArray(item.avoid) ? item.avoid.join('；') : item.avoid)}</p></div></section>
+      <section class="detail-block"><h3>买回家，怎么放？</h3><p>${escape(item.storage)}</p></section>
+    </div>
+    <section class="source-section"><details><summary>资料出处与适用范围 · 核对于 ${escape(item.checkedAt)}</summary><p>适用于通用家庭选购参考，不代表${escape(state.city || '某个城市')}实时供应。</p>${sourceRows}<p class="source-note">季节与挑选保存信息可能参考不同资料；月份为宽泛区间，保存应以食材状态和商品标签为准。</p>${photo ? `<p class="source-note">图片：${escape(photo.author || '作者见来源')} · ${escape(photo.license || '')} <a href="${safeUrl(photo.sourceUrl)}" target="_blank" rel="noopener noreferrer">图片来源及许可 ↗</a></p>` : ''}</details></section>`;
   const dialog = $('#detail-dialog');if (!dialog.open) dialog.showModal();dialog.scrollTop=0;
 }
 
