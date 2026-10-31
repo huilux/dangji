@@ -29,3 +29,14 @@ export function nearestCity(latitude, longitude, cities) {
   // shortcut: a city-centre match is approximate; use administrative polygons if district-level accuracy becomes necessary.
   return best && best.distance < 120 ? best : null;
 }
+export function readViewState(search, currentMonth) {
+  const params = new URLSearchParams(search);
+  const month = Number(params.get('month'));
+  const category = params.get('type');
+  return {
+    month: Number.isInteger(month) && month >= 1 && month <= 12 ? month : currentMonth,
+    category: ['fruit', 'vegetable'].includes(category) ? category : 'all',
+    query: (params.get('q') || '').slice(0, 60),
+    mode: params.get('view') === 'all' ? 'all' : 'seasonal'
+  };
+}

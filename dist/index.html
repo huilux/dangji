@@ -5,51 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#1e3932">
   <meta name="description" content="给买菜新手的当季蔬果指南。按月份认识时令水果和蔬菜，学习怎么挑、怎么保存。">
-  <title>当季买什么 · 跟着时节，买点新鲜</title>
+  <title>当季买什么 · 新手的时令蔬果指南</title>
   <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script type="module" src="app.mjs"></script>
+  <link rel="stylesheet" href="style.css?v=2">
+  <script type="module" src="app.mjs?v=2"></script>
 </head>
 <body>
   <a href="#catalog" class="skip-link">跳到蔬果清单</a>
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="./" aria-label="当季买什么 首页"><img src="assets/mark.svg" alt="" width="35" height="35"><span>当季买什么<span class="brand-note">一份新手的时令指南</span></span></a>
+      <a class="brand" href="./" aria-label="当季买什么 首页"><img src="assets/mark.svg" alt="" width="40" height="40"><span>当季买什么<span class="brand-note">新手的时令蔬果指南</span></span></a>
       <nav aria-label="主导航">
         <button class="nav-link active" data-mode="seasonal" aria-pressed="true">当季推荐</button>
         <button class="nav-link" data-mode="all" aria-pressed="false">蔬果图鉴</button>
-        <button class="nav-link about-trigger">关于当季</button>
+        <button class="nav-link about-trigger">使用指南</button>
       </nav>
-      <button class="city-trigger" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span id="city-name">选择城市</span><span aria-hidden="true">⌄</span></button>
+      <button class="city-trigger" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span id="city-name">选择城市</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 10 4 4 4-4"/></svg></button>
     </div>
   </header>
-
   <main class="page">
     <section class="intro" aria-labelledby="page-title">
-      <div><h1 id="page-title">跟着时节，买点新鲜。</h1><p>从认识一颗果子、一片青菜开始，慢慢学会好好买菜。</p></div>
-      <div class="intro-note"><span class="season-name" id="season-name">当季指南</span><span id="intro-note">看季节 · 学挑选 · 懂保存</span></div>
+      <div><h1 id="page-title">这个月，吃点当季的。</h1><p>认识时令，学会挑选，把新鲜带回家。</p></div>
+      <button class="text-button about-trigger">第一次买菜？看看指南 <span aria-hidden="true">→</span></button>
     </section>
-
-    <section class="month-panel" aria-label="选择月份">
-      <div class="month-top"><span>想逛几月的菜市场？</span><button class="text-button" id="today-button">回到本月 <span aria-hidden="true">↗</span></button></div>
+    <section class="month-panel" aria-label="选择月份" data-month-open="false">
+      <button class="month-toggle" id="month-toggle" aria-expanded="false" aria-controls="month-options"><span>参考月份</span><span id="selected-month">切换月份</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 10 4 4 4-4"/></svg></button>
+      <div class="month-options" id="month-options">
+      <div class="month-top"><span>按月份逛一逛</span><button class="text-button" id="today-button">回到本月 <span aria-hidden="true">↶</span></button></div>
       <div class="month-list" id="month-list"></div>
+      </div>
     </section>
-
-    <div class="region-note"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 11v6m0-10v1"/></svg><p id="region-description">当前展示常见产区的季节参考。品种、产区和天气会影响实际上市时间。</p><button class="text-button about-trigger">怎样理解当季 <span aria-hidden="true">↗</span></button></div>
-
     <section id="catalog" class="catalog" aria-labelledby="catalog-title">
-      <div class="catalog-heading"><div><h2 id="catalog-title">这个月，值得逛一逛</h2><p id="result-description" role="status" aria-live="polite">正在整理蔬果清单…</p></div><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">搜索蔬果名称或产地</span><input id="search" type="search" placeholder="搜一搜，比如苹果、南瓜" maxlength="60"><span class="search-hint" aria-hidden="true">搜索</span></label></div>
-      <div class="filter-row"><div class="category-tabs" role="group" aria-label="蔬果分类"><button data-category="all" class="selected" aria-pressed="true">全部<span id="count-all"></span></button><button data-category="fruit" aria-pressed="false">水果<span id="count-fruit"></span></button><button data-category="vegetable" aria-pressed="false">蔬菜<span id="count-vegetable"></span></button></div><span class="catalog-caption" id="catalog-caption">跟着自然成熟的节奏挑选</span></div>
+      <div class="browse-tools">
+        <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">搜索蔬果名称或产地</span><input id="search" type="search" placeholder="想买什么？搜名称或产地" maxlength="60" aria-describedby="search-scope"><button id="clear-search" type="button" aria-label="清除搜索" hidden>×</button></label>
+        <span id="search-scope" class="sr-only">搜索覆盖全部月份，所选月份用于显示产季参考。</span>
+        <div class="category-tabs" role="group" aria-label="蔬果分类"><button data-category="all" class="selected" aria-pressed="true">全部<span id="count-all"></span></button><button data-category="fruit" aria-pressed="false">水果<span id="count-fruit"></span></button><button data-category="vegetable" aria-pressed="false">蔬菜<span id="count-vegetable"></span></button></div>
+      </div>
+      <div class="catalog-heading"><h2 id="catalog-title">本月清单</h2><p id="result-description" role="status" aria-live="polite">正在载入蔬果…</p></div>
+      <div class="region-note"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 11v6m0-10v1"/></svg><p id="region-description">通用产季参考，实际上市时间因产区、品种和天气而异。</p><button class="text-button about-trigger">参考说明</button></div>
       <div id="produce-grid" class="produce-grid" aria-busy="true"><p class="loading-message">正在载入时令蔬果…</p></div>
-      <div id="empty-state" class="empty-state" hidden><h3>暂时没有找到合适的蔬果</h3><p id="empty-description">换个关键词，或者看看全部月份的蔬果。</p><button class="primary-button" id="reset-search">清除搜索和分类</button><button class="text-button" id="see-all">查看全部蔬果 →</button></div>
+      <div id="empty-state" class="empty-state" hidden><h3>还没找到你想买的</h3><p id="empty-description">换个常用名称试试，或者清除筛选看看。</p><button class="primary-button" id="reset-search">清除搜索和分类</button><button class="text-button" id="see-all">查看全部蔬果 →</button></div>
     </section>
-
-    <aside class="little-guide"><div class="guide-symbol" aria-hidden="true"><svg viewBox="0 0 44 44"><path d="M22 35V20M22 27C8 29 7 15 7 10c13 0 18 6 15 17Zm0-7c-2-10 5-15 15-15 0 10-4 17-15 15Z"/></svg></div><div><h2>买得少一点，认识多一点。</h2><p>先挑两三种想吃的，看一眼挑选方法，再决定带多少回家。新手的第一步，就这么简单。</p></div><button class="text-button about-trigger">阅读这份指南 <span aria-hidden="true">↗</span></button></aside>
+    <aside class="little-guide"><svg viewBox="0 0 44 44" aria-hidden="true"><path d="M22 35V20M22 27C8 29 7 15 7 10c13 0 18 6 15 17Zm0-7c-2-10 5-15 15-15 0 10-4 17-15 15Z"/></svg><div><h2>先认识两三样，再慢慢逛。</h2><p>挑想吃的，看一眼怎么选、怎么存，少量买回家试试。</p></div><button class="text-button about-trigger">阅读使用指南 →</button></aside>
   </main>
-
-  <footer class="site-footer"><div><a class="footer-brand" href="./">当季买什么</a><p>认识时令，慢慢学会好好生活。</p></div><div class="footer-links"><button class="about-trigger">资料与使用说明</button><button id="credits-trigger">图片署名</button><span>免费试用 · 通用产区参考</span></div></footer>
-
-  <dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-name"><button class="close-button" data-close aria-label="关闭蔬果详情">×</button><div id="detail-content"></div></dialog>
+  <footer class="site-footer"><div><a class="footer-brand" href="./">当季买什么</a><p>跟着时节，慢慢学会好好生活。</p></div><div class="footer-links"><button class="about-trigger">资料与使用说明</button><button id="credits-trigger">图片署名</button><span>免费试用 · 通用产区参考</span></div></footer>
+  <dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-name"><div class="detail-toolbar"><button class="dialog-back" data-close><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg>返回清单</button><span>挑选 · 保存</span><span class="key-hint">Esc 关闭</span></div><div id="detail-content"></div></dialog>
   <dialog id="city-dialog" class="utility-dialog" aria-labelledby="city-title"><button class="close-button" data-close aria-label="关闭城市选择">×</button><h2 id="city-title">你在哪座城市逛市场？</h2><p>选择城市后，我们会说明资料的适用范围。</p><button id="locate-button" class="primary-button">使用我的位置</button><p id="location-status" role="status" class="muted">仅在点击后请求定位；坐标只在浏览器内用于匹配城市。</p><form id="city-form"><label for="city-input">手动输入城市</label><div class="city-input-row"><input id="city-input" type="text" placeholder="例如：杭州" maxlength="20" autocomplete="address-level2" list="city-options" required><button class="secondary-button" type="submit">确定</button></div><datalist id="city-options"></datalist><p id="city-error" role="alert"></p></form><p class="city-list-label">常用城市</p><div class="city-suggestions" id="city-suggestions"></div><button id="clear-city" class="text-button">清除城市，查看通用参考</button><p class="privacy-note">只在这台设备记住城市名称，不保存精确位置。暂无地区资料时，仍显示通用产季参考。</p></dialog>
   <dialog id="about-dialog" class="utility-dialog" aria-labelledby="about-title"><button class="close-button" data-close aria-label="关闭指南说明">×</button><h2 id="about-title">一份有边界的时令指南</h2><p>「当季买什么」帮助刚开始独立买菜的人，认识常见蔬果的产季、风味、挑选与保存方式。</p><h3>这里的「当季」是什么意思？</h3><p>指常见产区通常自然成熟、集中上市的时间段。同一种蔬果会因品种、地区、天气及栽培方式不同而提前或延后。有些蔬菜条目只覆盖特定产区或茬口，设施栽培条目会单独标注。未列出的月份不等于没有其他产区上市。月份是选购线索，不是每座城市的实时供应保证。产季之外也可能来自设施栽培、其他产区或冷链储藏。</p><h3>选了城市，为什么清单可能相同？</h3><p>首版采用通用产区参考。没有足够的地区资料时，我们会明确说明，不据此推算当地正在采收或门店有货。城市选择会保留，方便后续有资料时使用。</p><h3>资料怎么使用？</h3><p>蔬果详情保留资料出处、适用范围和核对日期。部分挑选与保存建议属于通用家庭参考，不能替代商品标签、食安部门指引或实际新鲜度判断。没有依据的保存天数不作保证。</p><h3>城市坐标资料</h3><p>城市粗略匹配使用 <a href="https://github.com/88250/city-geo" target="_blank" rel="noopener noreferrer">City Geo</a> 开放资料，许可副本见 <a href="licenses/city-geo-LICENSE.txt" target="_blank" rel="noopener noreferrer">木兰宽松许可证第2版</a>。城市中心的坐标近似匹配后，请手动核对。</p><h3>关于你的位置</h3><p>网页无需登录。只有点击定位才请求浏览器位置权限，城市匹配在设备内完成。我们只在当前浏览器记住城市名称，不上传定位坐标。</p><p class="muted">首版覆盖 40 种常见蔬果，不提供实时价格、库存或营养诊疗建议。</p></dialog>
   <dialog id="credits-dialog" class="utility-dialog wide-dialog" aria-labelledby="credits-title"><button class="close-button" data-close aria-label="关闭图片署名">×</button><h2 id="credits-title">图片署名</h2><p>图片用于帮助辨认蔬果；照片中的具体品种可能与市场所售不同。</p><div id="photo-credits"></div></dialog>

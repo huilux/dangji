@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {readFileSync, existsSync} from 'node:fs';
-import {filterProduce, monthLabel, nearestCity} from './dist/logic.mjs';
+import {filterProduce, monthLabel, nearestCity, readViewState} from './dist/logic.mjs';
 
 const read = file => JSON.parse(readFileSync(new URL(`./dist/${file}`,import.meta.url),'utf8'));
 const items = read('produce.json');
@@ -35,4 +35,13 @@ assert.equal(monthLabel(Array.from({length:12},(_,i)=>i+1)),'全年有产区上�
 assert.equal(nearestCity(31.23,121.47,cities).name,'上海市');
 assert.equal(nearestCity(0,0,cities),null);
 assert.equal(nearestCity(NaN,120,cities),null);
+assert.deepEqual(readViewState('?month=6&type=fruit&q=西红柿&view=all',10), {
+  month:6,category:'fruit',query:'西红柿',mode:'all'
+});
+assert.deepEqual(readViewState('?month=13&type=invalid&view=invalid',10), {
+  month:10,category:'all',query:'',mode:'seasonal'
+});
+assert.equal(readViewState('?month=1.5',10).month,10);
+assert.equal(readViewState('?q='+'a'.repeat(100),10).query.length,60);
+assert.equal(filterProduce(items,{month:10,mode:'all',query:'西红柿'})[0].id,'tomato');
 console.log(`通过：40条内容结构、图片署名、12个月筛选、搜索、月份分组与城市匹配。城市库 ${cities.length} 条。`);
