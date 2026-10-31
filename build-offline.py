@@ -11,7 +11,8 @@ logic = (dist / 'logic.mjs').read_text().replace('export function ', 'function '
 items = json.loads((dist / 'produce.json').read_text())
 photos = json.loads((dist / 'photos.json').read_text())
 cities = json.loads((dist / 'cities.json').read_text())
-assert len(items) == len(photos) == 40
+assert items and len(items) == len(photos)
+assert {item['id'] for item in items} == {photo['id'] for photo in photos}
 
 for photo in photos:
     photo['dataUrl'] = 'data:image/jpeg;base64,' + base64.b64encode((dist / 'assets' / photo['file']).read_bytes()).decode()
