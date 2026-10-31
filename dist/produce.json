@@ -1,0 +1,1659 @@
+[
+  {
+    "id": "apples",
+    "name": "苹果",
+    "category": "fruit",
+    "months": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "origins": "环渤海、黄土高原等；常见山东、陕西、甘肃产区",
+    "taste": "有脆甜、酸甜和绵软品种，先问清品种。",
+    "pick": [
+      "挑果皮完整、无压伤和霉斑的。",
+      "想吃脆口，先问品种并轻触确认硬度。"
+    ],
+    "avoid": "发软渗液或有腐败味的整果放弃。",
+    "storage": "完整未切开的苹果可置阴凉处短放，天热时装袋冷藏；与易催熟水果分开。品种耐放性差异大，切开后密封冷藏并尽快吃完。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "农业农村部｜苹果贮藏保鲜操作规程",
+        "url": "https://scs.moa.gov.cn/ccll/jszn/202302/t20230203_6419769.htm"
+      },
+      {
+        "kind": "guide",
+        "title": "北京市卫生健康委员会｜金秋来袭，get水果的正确储存方法",
+        "url": "https://wjw.beijing.gov.cn/bmfw_20143/jkzs/202012/t20201201_2154351.html"
+      },
+      {
+        "kind": "guide",
+        "title": "鄂州市公共检验检测中心｜关于购买果蔬有什么注意事项问题的回复",
+        "url": "https://gjzx.ezhou.gov.cn/hdjl/lxhf/202607/t20260720_773920.html"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "月份合并早晚熟品种；冷藏库存果全年可见，不代表全年自然成熟。"
+  },
+  {
+    "id": "pears",
+    "name": "梨",
+    "category": "fruit",
+    "months": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "origins": "河北、新疆、安徽等；鸭梨、香梨、砀山梨各有特点",
+    "taste": "常见品种清甜多汁，脆软和颗粒感各异。",
+    "pick": [
+      "同品种、同大小可选手感较沉的。",
+      "优先果柄完整、果面无损伤的。"
+    ],
+    "avoid": "干瘪、压伤渗液或发霉的不要买。",
+    "storage": "完整未切开的梨，短期可放阴凉通风处；室温偏高或需多放时，保持表面干燥后装袋冷藏，避开冰箱后壁。切开后包好冷藏，尽快食用。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "北京市市场监督管理局｜挑梨记住看掂辨，存梨分清凉和冰",
+        "url": "https://scjgj.beijing.gov.cn/zwxx/scjgdt/202610/t20261007_4891640.html"
+      },
+      {
+        "kind": "origin",
+        "title": "农业农村部｜重点农产品市场信息平台（产地示例）",
+        "url": "https://ncpscxx.moa.gov.cn/"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "月份合并雪梨、香梨、酥梨等常见品种，并非每种梨都覆盖全部月份。"
+  },
+  {
+    "id": "mandarin",
+    "name": "橘子",
+    "category": "fruit",
+    "months": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "origins": "浙江、江西、湖南、广西、广东等柑橘产区",
+    "taste": "易剥皮，蜜橘、砂糖橘、沃柑酸甜各异。",
+    "pick": [
+      "选果皮完整、没有霉点和裂口的。",
+      "轻按有弹性，避免软塌或明显空皮。"
+    ],
+    "avoid": "不能靠果皮颜色判断是否使用催熟剂。",
+    "storage": "完整未剥皮的橘子可在阴凉干燥通风处短放，定期检查坏果；天热且吃不完时可适度冷藏，避免低温出风口。剥开后密封冷藏并尽快吃完。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "哈密市市场监督管理局｜关于橘子的消费提示",
+        "url": "https://www.hami.gov.cn/hami/c120182/202410/49763c7cb00044f2b924fcdf35bfb659.shtml"
+      },
+      {
+        "kind": "origin",
+        "title": "农业农村部｜柑橘类贮藏保鲜操作规程",
+        "url": "https://scs.moa.gov.cn/ccll/jszn/202302/t20230203_6419770.htm"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "月份合并蜜橘、砂糖橘、沃柑等；不同品种成熟期不同。",
+    "aliases": [
+      "桔子",
+      "柑橘"
+    ]
+  },
+  {
+    "id": "orange",
+    "name": "橙子",
+    "category": "fruit",
+    "months": [
+      1,
+      2,
+      10,
+      11,
+      12
+    ],
+    "origins": "赣南、湘南、桂北及四川等柑橘产区",
+    "taste": "果肉多汁，脐橙、冰糖橙和血橙风味不同。",
+    "pick": [
+      "选表皮完整、无裂口和霉斑的。",
+      "同品种可轻掂比较，优先饱满有分量的。"
+    ],
+    "avoid": "“公母橙”不能作为甜度保证。",
+    "storage": "完整未切开的橙子可置阴凉通风处短放，表面保持干燥；需冷藏时避开冰箱冷风直吹，留意失水和冷害。切开后密封冷藏并尽快食用。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "重庆市市场监督管理局｜柑橘消费小贴士",
+        "url": "https://scjgj.cq.gov.cn/bkzs/spbk/202503/t20250321_14428928.html"
+      },
+      {
+        "kind": "origin",
+        "title": "农业农村部｜柑橘类贮藏保鲜操作规程",
+        "url": "https://scs.moa.gov.cn/ccll/jszn/202302/t20230203_6419770.htm"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "月份合并脐橙、冰糖橙、血橙等；夏橙等品种可有不同采收期。"
+  },
+  {
+    "id": "pomelo",
+    "name": "柚子",
+    "category": "fruit",
+    "months": [
+      9,
+      10,
+      11
+    ],
+    "origins": "福建平和、广西、广东等南方柚类产区",
+    "taste": "有清甜、酸甜或微苦，红肉不一定更甜。",
+    "pick": [
+      "同品种、同大小可选手感较沉的。",
+      "轻按果皮紧实，避开软陷和明显破损。"
+    ],
+    "avoid": "不买发霉、渗液或有腐败气味的果实。",
+    "storage": "完整未剥皮的柚子可放阴凉、通风、避光处，避免潮湿和挤压；剥皮后更容易失水变质，吃不完应密封冷藏，并尽快食用。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "阳江市市场监督管理局｜问：柚子要怎么选？",
+        "url": "https://www.yangjiang.gov.cn/yj/hdjl/wdzsk/sscjdglj/spjg/content/mpost_889513.html"
+      },
+      {
+        "kind": "origin",
+        "title": "农业农村部｜柑橘类贮藏保鲜操作规程",
+        "url": "https://scs.moa.gov.cn/ccll/jszn/202302/t20230203_6419770.htm"
+      },
+      {
+        "kind": "origin",
+        "title": "农业农村部｜重点农产品市场信息平台（产地示例）",
+        "url": "https://ncpscxx.moa.gov.cn/"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "月份主要为秋季柚类参考；果肉颜色不能直接代表甜度。"
+  },
+  {
+    "id": "persimmon",
+    "name": "柿子",
+    "category": "fruit",
+    "months": [
+      9,
+      10
+    ],
+    "origins": "广西、山东、山西、河南等常见产区",
+    "taste": "脆柿爽脆，软柿绵甜；涩柿须充分脱涩。",
+    "pick": [
+      "先问清是脆柿、软柿及是否已脱涩。",
+      "选果蒂完整、果皮无裂伤和霉点的。"
+    ],
+    "avoid": "涩味明显的先别吃，不靠硬软判断脱涩。",
+    "storage": "完整未切开、尚硬的柿子可在阴凉处观察成熟；已脱涩、达到适口成熟度的柿子可装袋冷藏，并尽快吃完。软熟果更易压伤，切开后及时冷藏。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "湖南省市场监督管理局｜柿子好吃正当季",
+        "url": "https://amr.hunan.gov.cn/amr/ztx/cjxxx/202401/t20240102_32616474.html"
+      },
+      {
+        "kind": "origin",
+        "title": "国家林业和草原局｜林草产业发展规划2021—2025年：经济林树种布局",
+        "url": "https://www.forestry.gov.cn/html/main/main_5461/20220210143502934848435/file/20220210143540490594614.pdf"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "此处为常见秋季采收参考；硬的脆柿也可能已可食用，需确认品种和脱涩状态。"
+  },
+  {
+    "id": "grapes",
+    "name": "葡萄",
+    "category": "fruit",
+    "months": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "origins": "新疆、山东、辽宁、浙江等常见产区",
+    "taste": "有脆肉、软肉、浓香与清甜品种。",
+    "pick": [
+      "看果梗是否新鲜，果粒是否饱满。",
+      "天然白霜常见；不要为挑果反复擦摸。"
+    ],
+    "avoid": "果粒渗水、发霉或带酒酸味的不要买。",
+    "storage": "成熟完整的葡萄尽量不提前清洗，放入盒中冷藏，避免挤压并尽快食用；吃多少洗多少。存放中若出现霉烂或发酵异味，应丢弃问题果穗。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "许昌市市场监督管理局｜食检说：葡萄食用小贴士",
+        "url": "https://scjg.xuchang.gov.cn/zwgk/002021/20260821/4b1d7261-625b-49c8-9f4d-5ce1693aa030.html"
+      },
+      {
+        "kind": "origin",
+        "title": "农业农村部｜重点农产品市场信息平台（产地示例）",
+        "url": "https://ncpscxx.moa.gov.cn/"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "月份为常见露地品种参考；设施栽培和南北产区可延长上市期。"
+  },
+  {
+    "id": "kiwi",
+    "name": "猕猴桃",
+    "category": "fruit",
+    "months": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "origins": "陕西周至、眉县及四川蒲江、都江堰等",
+    "taste": "成熟后酸甜多汁，红、黄、绿心风味不同。",
+    "pick": [
+      "现吃选整体微微软、无局部软陷的。",
+      "需慢慢吃可选完整硬果，回家观察后熟。"
+    ],
+    "avoid": "局部软烂、渗液或有酒味的不要买。",
+    "storage": "完整硬果可在室温下后熟，每天查看；达到微软适口状态后放冰箱冷藏，减缓继续变软。勿挤压，切开后密封冷藏，并尽快食用。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "张掖市卫生健康委员会｜每天吃1个猕猴桃会发生什么？",
+        "url": "https://www.zhangye.gov.cn/wjw/ztzl/jkxj/202306/t20230620_1064569.html"
+      },
+      {
+        "kind": "origin",
+        "title": "西安市农业农村局｜周至猕猴桃",
+        "url": "https://nyncj.xa.gov.cn/nyfw/mytc/5da60d7065cbd86d495644ca.html"
+      },
+      {
+        "kind": "origin",
+        "title": "国家林业和草原局｜四川猕猴桃上市，今年产量价格双增长",
+        "url": "https://www.forestry.gov.cn/lyj/1/slgs/20260908/687802.html"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "硬度与成熟度有关，具体食用状态因品种而异；并非所有硬果都已足够甜。",
+    "aliases": [
+      "奇异果"
+    ]
+  },
+  {
+    "id": "pomegranate",
+    "name": "石榴",
+    "category": "fruit",
+    "months": [
+      8,
+      9,
+      10
+    ],
+    "origins": "四川、云南、陕西、山东等常见产区",
+    "taste": "籽粒汁多酸甜，软籽品种也有口感差异。",
+    "pick": [
+      "同品种同大小，选饱满有分量的。",
+      "检查果皮、花萼附近有无霉烂和虫伤。"
+    ],
+    "avoid": "裂口暴露果肉、霉烂或异味果不要买。",
+    "storage": "完整未开裂的成熟石榴可在阴凉处短放；需多放时保持表面干燥，包纸装袋冷藏。剥出的籽粒应密封冷藏，并尽快吃完，发霉果不要食用。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "泰安市市场监督管理局｜秋食石榴正当时！挑选、食用全攻略",
+        "url": "https://scjgj.taian.gov.cn/art/2025/10/12/art_357722_10312096.html?xxgkhide=1"
+      },
+      {
+        "kind": "guide",
+        "title": "鄂州市公共检验检测中心｜关于购买果蔬有什么注意事项问题的回复",
+        "url": "https://gjzx.ezhou.gov.cn/hdjl/lxhf/202607/t20260720_773920.html"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "产区为常见示例；皮红不代表一定更甜，软籽也不等于完全无籽。 口感与产区为常见示例概括，尚未逐产区建立季节表。"
+  },
+  {
+    "id": "winter-jujube",
+    "name": "冬枣",
+    "category": "fruit",
+    "months": [
+      9,
+      10
+    ],
+    "origins": "山东沾化、河北黄骅；陕西大荔也有设施栽培",
+    "taste": "薄皮脆甜，成熟度越高通常越不耐放。",
+    "pick": [
+      "选饱满、表皮平整且无裂口的。",
+      "轻触应有脆实感，避免软塌和皱缩。"
+    ],
+    "avoid": "仅凭红绿颜色不能鉴别“糖精枣”。",
+    "storage": "完整无裂伤的冬枣应少量购买，表面保持干燥后装袋冷藏，减少挤压并尽快食用；越红熟的果实越应先吃。不要把商业冷库保存期当作家庭期限。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "国家邮政局｜黄骅：邮路通 枣香远",
+        "url": "https://ln.spb.gov.cn/gjyzj/c100196/202610/f6bfaab8530843819f667e05125c4d5b.shtml"
+      },
+      {
+        "kind": "guide",
+        "title": "农业农村部｜鲜枣贮藏保鲜操作规程",
+        "url": "https://scs.moa.gov.cn/ccll/jszn/202302/t20230203_6419772.htm"
+      },
+      {
+        "kind": "origin",
+        "title": "湖南省林业局｜冬枣实用保鲜技术",
+        "url": "https://lyj.hunan.gov.cn/lyj/tslm_71206/lykp/syjs/201512/t20151227_2616229.html"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "采用露地秋季口径；大荔设施冬枣可更早上市，不能把商品名“冬枣”理解为冬季成熟。",
+    "aliases": [
+      "鲜枣"
+    ]
+  },
+  {
+    "id": "peach",
+    "name": "桃",
+    "category": "fruit",
+    "months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "origins": "山东、河北、北京、甘肃等；江浙也有水蜜桃",
+    "taste": "硬脆和软糯品种都有，成熟后桃香明显。",
+    "pick": [
+      "按想吃的软硬口感先问清品种。",
+      "选果形饱满、表皮完整且有自然桃香的。"
+    ],
+    "avoid": "压伤流水、发霉或表皮明显皱缩的别买。",
+    "storage": "完整未切开、尚未达到适口成熟度的桃可在阴凉处短放；成熟后轻放入盒冷藏并尽快吃完。软桃容易压坏，切开后应密封冷藏，现切现吃更好。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "甘肃政务服务网｜秦安蜜桃：早、中、晚熟品种成熟期",
+        "url": "https://zwfw.gansu.gov.cn/qinan/tsfw/nfcpzszq/qamt/index.html"
+      },
+      {
+        "kind": "guide",
+        "title": "上海市市场监督管理局｜市市场监管局关于桃子的消费提示",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260706/40b36a6ded754c0aa4075b336f9a75d8.html"
+      },
+      {
+        "kind": "guide",
+        "title": "北京市卫生健康委员会｜金秋来袭，get水果的正确储存方法",
+        "url": "https://wjw.beijing.gov.cn/bmfw_20143/jkzs/202012/t20201201_2154351.html"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "月份涵盖常见早中晚熟桃，个别更早或更晚品种不在此范围内。"
+  },
+  {
+    "id": "plum",
+    "name": "李子",
+    "category": "fruit",
+    "months": [
+      6,
+      7,
+      8
+    ],
+    "origins": "四川、云南、贵州及东北等常见产区",
+    "taste": "脆李爽脆，软肉李汁多，酸甜因品种而异。",
+    "pick": [
+      "选表皮完整、没有裂痕和软烂的。",
+      "正常果粉常见，先问品种再判断硬软。"
+    ],
+    "avoid": "不要用红、绿或黑色直接判断甜度。",
+    "storage": "完整未切开的李子可在阴凉通风处短放，已达到适口成熟度且暂时吃不完时可装盒冷藏。软熟果先吃，清洗后尽快食用，不为后熟长时间囤放。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "武定县人民政府｜消费提示：李子选购技巧及注意事项",
+        "url": "https://www.ynwd.gov.cn/info/2803/257181.htm"
+      },
+      {
+        "kind": "guide",
+        "title": "鄂州市公共检验检测中心｜关于购买果蔬有什么注意事项问题的回复",
+        "url": "https://gjzx.ezhou.gov.cn/hdjl/lxhf/202607/t20260720_773920.html"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "月份为常见集中成熟参考；脆李本来可保持绿色，品种差异很大。 口感与产区为常见示例概括，尚未逐产区建立季节表。"
+  },
+  {
+    "id": "apricot",
+    "name": "杏",
+    "category": "fruit",
+    "months": [
+      6,
+      7
+    ],
+    "origins": "北京、山东、新疆等常见鲜食杏产区",
+    "taste": "多为酸甜、柔软多汁，成熟后香气明显。",
+    "pick": [
+      "选表皮完整、没有压伤和虫眼的。",
+      "轻拿轻放，按食用时间选择成熟度。"
+    ],
+    "avoid": "发霉、裂口渗液或有发酵味的不要买。",
+    "storage": "完整未切开的杏避免堆压和暴晒，成熟后应尽快食用；暂时吃不完可装盒冷藏，注意检查软烂。冷藏不能保证固定保存天数，切开后及时密封冷藏。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "北京市农业农村局｜节气品农味：盛夏时节，杏好有你",
+        "url": "https://nyncj.beijing.gov.cn/nyj/jcsn/jqkxc_zxgjc78/jqsy/326161643/"
+      },
+      {
+        "kind": "season",
+        "title": "通化市地方志办公室｜通化市志：植物候（杏7月下旬果熟）",
+        "url": "https://www.tonghua.gov.cn/dfz/fztd/202204/t20220424_605835.html"
+      },
+      {
+        "kind": "guide",
+        "title": "吕梁市人民政府｜杏果的挑选、分级及预冷技法",
+        "url": "https://www.lvliang.gov.cn/zmhd/zsk/201907/t20190715_1303468.html"
+      },
+      {
+        "kind": "guide",
+        "title": "鄂州市公共检验检测中心｜关于购买果蔬有什么注意事项问题的回复",
+        "url": "https://gjzx.ezhou.gov.cn/hdjl/lxhf/202607/t20260720_773920.html"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "仅据北京及北方典型产区取6—7月参考；全国早熟杏可能更早，尚未细分。"
+  },
+  {
+    "id": "cherry",
+    "name": "樱桃",
+    "category": "fruit",
+    "months": [
+      5,
+      6
+    ],
+    "origins": "山东烟台、辽宁大连、四川汉源、甘肃天水等",
+    "taste": "甜樱桃肉厚多汁，中国樱桃通常更柔软。",
+    "pick": [
+      "选表皮饱满有光泽、无破损的。",
+      "保留新鲜果梗，轻触果肉应有弹性。"
+    ],
+    "avoid": "裂果渗液、霉点或酒酸味果不要买。",
+    "storage": "完整带梗、成熟的樱桃不耐久放，应少量购买；暂时不吃时放入保鲜盒冷藏，避免挤压。尽量吃前再洗，洗后须沥干水分并尽快食用。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "沂水县市场监督管理局｜关于樱桃的消费提示",
+        "url": "https://www.yishui.gov.cn/info/129207/495470.htm"
+      },
+      {
+        "kind": "origin",
+        "title": "重庆市农业农村委员会｜国产樱桃站在升级路口",
+        "url": "https://nyncw.cq.gov.cn/zwxx_161/ywxx/202307/t20230704_12118328.html"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "以常见国产甜樱桃为主；西南中国樱桃可早至4月，北方晚熟品种可到7月。",
+    "aliases": [
+      "车厘子"
+    ]
+  },
+  {
+    "id": "strawberry",
+    "name": "草莓",
+    "category": "fruit",
+    "months": [
+      4,
+      5,
+      6
+    ],
+    "origins": "辽宁丹东、四川双流、河北满城、安徽长丰等",
+    "taste": "汁多酸甜，香气和硬软度随品种变化。",
+    "pick": [
+      "选果实完整、饱满且果蒂较新鲜的。",
+      "闻自然果香，不以个头或形状判断安全。"
+    ],
+    "avoid": "有霉点、流水或酒味的不要买。",
+    "storage": "完整成熟草莓应少量购买，保持干燥并用保鲜盒冷藏，避免挤压；尽量吃前再清洗。草莓极易变质，洗后尽快食用，出现霉烂应丢弃。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "泉州市市场监督管理局｜冬草莓大量上市，这些小知识助您摘红运",
+        "url": "https://scjgj.quanzhou.gov.cn/xxgk/ztzl/xfts/scjggzxkt/202601/t20260107_3251740.htm"
+      },
+      {
+        "kind": "guide",
+        "title": "玉溪市市场监督管理局、消费者协会｜草莓消费提示警示",
+        "url": "https://www.yuxi.gov.cn/yxszfxxgk/spaq/20250220/1586605.html"
+      },
+      {
+        "kind": "origin",
+        "title": "盐城市农业农村局｜草莓十问",
+        "url": "https://snw.yancheng.gov.cn/art/2024/4/23/art_901_4180641.html"
+      },
+      {
+        "kind": "guide",
+        "title": "北京市卫生健康委员会｜金秋来袭，get水果的正确储存方法",
+        "url": "https://wjw.beijing.gov.cn/bmfw_20143/jkzs/202012/t20201201_2154351.html"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "月份特指露地草莓；冬春设施草莓也很常见，不应据此认为冬季草莓不安全。"
+  },
+  {
+    "id": "watermelon",
+    "name": "西瓜",
+    "category": "fruit",
+    "months": [
+      6,
+      7,
+      8
+    ],
+    "origins": "全国多地栽培；常见山东、河南、甘肃、宁夏等",
+    "taste": "水分丰富，有脆沙瓤之分，甜度因品种变化。",
+    "pick": [
+      "先选瓜皮完整、无软陷和开裂的。",
+      "同品种可比较重量，优先饱满有分量的。"
+    ],
+    "avoid": "拍声只能辅助，不能保证甜度和内部品质。",
+    "storage": "完整未切开的成熟西瓜可在阴凉通风处短放，避免暴晒；切前清洗瓜皮，使用干净刀板。切开后及时密封冷藏并尽快吃完，不在常温久放。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "北京市市场监督管理局｜夏日吃瓜不踩雷：西瓜挑选、储存、食用指南",
+        "url": "https://scjgj.beijing.gov.cn/zwxx/scjgdt/202607/t20260714_4761083.html"
+      },
+      {
+        "kind": "guide",
+        "title": "中山市市场监督管理局｜夏季食品安全风险提示：谨慎购买食用现切水果",
+        "url": "https://www.zs.gov.cn/zwgk/jdxx/spyp/content/post_2643037.html"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "月份为常见夏季集中采收参考；海南等产区和设施栽培可有其他采收期。 口感与产区为常见示例概括，尚未逐产区建立季节表。"
+  },
+  {
+    "id": "cantaloupe",
+    "name": "哈密瓜",
+    "category": "fruit",
+    "months": [
+      7,
+      8,
+      9
+    ],
+    "origins": "新疆哈密、吐鲁番、昌吉等；其他地区也种甜瓜",
+    "taste": "香甜，有脆肉与软肉品种，网纹因品种不同。",
+    "pick": [
+      "选完整无裂口、无软陷渗水的瓜。",
+      "先问品种与成熟度，不只靠网纹挑选。"
+    ],
+    "avoid": "已经酸败、发黏或切面渗水的不要买。",
+    "storage": "完整未切开的成熟哈密瓜可在阴凉处短放，吃不完可冷藏；切前洗净瓜皮，刀板保持清洁。切开的果肉及时密封冷藏，并尽快吃完。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "中山市市场监督管理局｜夏季食品安全风险提示：谨慎购买食用现切水果",
+        "url": "https://www.zs.gov.cn/zwgk/jdxx/spyp/content/post_2643037.html"
+      },
+      {
+        "kind": "guide",
+        "title": "北京市卫生健康委员会｜金秋来袭，get水果的正确储存方法",
+        "url": "https://wjw.beijing.gov.cn/bmfw_20143/jkzs/202012/t20201201_2154351.html"
+      },
+      {
+        "kind": "origin",
+        "title": "哈密市人民政府｜哈密瓜",
+        "url": "https://www.hami.gov.cn/hami/xhtml/mlhm/hmg_content.html?id=hmjkd"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "以新疆夏秋哈密瓜为参考；南方设施甜瓜上市期不同，网纹多少不能通用于所有品种。"
+  },
+  {
+    "id": "lychee",
+    "name": "荔枝",
+    "category": "fruit",
+    "months": [
+      5,
+      6,
+      7
+    ],
+    "origins": "广东、广西、福建、海南等",
+    "taste": "果肉多汁清甜，桂味、糯米糍等香气不同。",
+    "pick": [
+      "选果壳完整饱满、无干瘪软烂的。",
+      "轻捏有弹性，闻起来没有发酵异味。"
+    ],
+    "avoid": "果皮开裂或有酒酸味的不要买。",
+    "storage": "成熟完整的荔枝应少量购买，保留短果柄，装入透气保鲜袋冷藏并尽快食用。带壳果也不耐久放，剥壳后及时冷藏，变质果整颗丢弃。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "阳江市市场监督管理局｜问：岭南荔枝鲜如何挑？",
+        "url": "https://www.yangjiang.gov.cn/yj/hdjl/wdzsk/sscjdglj/spjg/content/post_862824.html"
+      },
+      {
+        "kind": "guide",
+        "title": "中山市市场监督管理局｜关于荔枝的食品安全消费提示",
+        "url": "https://www.zs.gov.cn/zszjj/gkmlpt/content/2/2616/post_2616992.html"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "成熟时果皮可红可绿，因品种不同；不能仅凭红绿颜色判断安全或甜度。"
+  },
+  {
+    "id": "longan",
+    "name": "龙眼",
+    "category": "fruit",
+    "months": [
+      7,
+      8
+    ],
+    "origins": "福建、广东、广西、海南等",
+    "taste": "果肉透明多汁、甜味较明显，鲜果也叫桂圆。",
+    "pick": [
+      "选果壳完整、果形饱满的。",
+      "轻捏有弹性，闻起来有自然清甜气味。"
+    ],
+    "avoid": "壳上霉点、裂口或明显酸败味果不要买。",
+    "storage": "成熟完整的龙眼不耐久放，可装保鲜袋冷藏，少量购买并尽快食用；避免挤压，检查霉烂果。剥壳后密封冷藏，别与苹果、香蕉混放久存。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "北京市市场监督管理局｜京彩食安：关于龙眼的消费提示",
+        "url": "https://scjgj.beijing.gov.cn/zwxx/scjgdt/202609/t20260909_4856989.html"
+      },
+      {
+        "kind": "origin",
+        "title": "福建省人民政府｜四省区共推荔枝龙眼产销对接",
+        "url": "https://www.fujian.gov.cn/xwdt/fjyw/202506/t20250629_6959053.htm"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "月份为常见夏季集中成熟参考；晚熟产区可延续至9月，进口果另有产季。"
+  },
+  {
+    "id": "mango",
+    "name": "芒果",
+    "category": "fruit",
+    "months": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "origins": "海南、广西、云南、四川等；产区间可错峰上市",
+    "taste": "成熟后香甜绵润，纤维多少随品种变化。",
+    "pick": [
+      "现吃选果蒂附近轻按微有弹性的。",
+      "选表皮完整、有自然果香的果实。"
+    ],
+    "avoid": "局部软烂、渗液或有发酵味的不要买。",
+    "storage": "完整未切开的硬芒果可在阴凉通风处后熟，避免未熟即低温冷藏；成熟后可适度冷藏并尽快食用。切开后用洁净容器密封冷藏，别久放。",
+    "sources": [
+      {
+        "kind": "season",
+        "title": "湖南省市场监督管理局｜乱季佳果：科学话水果之反季（附国产水果应季表）",
+        "url": "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202507/t20250718_33743752.html"
+      },
+      {
+        "kind": "guide",
+        "title": "重庆市市场监督管理局｜芒果消费指南",
+        "url": "https://scjgj.cq.gov.cn/bkzs/xfts/202507/t20250707_14794257.html"
+      },
+      {
+        "kind": "origin",
+        "title": "云南省农业农村厅｜对省政协十二届五次会议第0347号提案的答复",
+        "url": "https://nync.yn.gov.cn/html/2022/tianjianyibanli2022_0606/387110.html?cid=4560"
+      },
+      {
+        "kind": "origin",
+        "title": "海南省农业农村厅｜三亚芒果加速闯世界",
+        "url": "https://agri.hainan.gov.cn/hnsnyt/ywdt/zwdt/202504/t20250403_3843386.html"
+      }
+    ],
+    "checkedAt": "2026-10-31",
+    "notes": "为常见夏季参考；海南调控栽培、云南及四川晚熟品种会延长国内供应期。"
+  },
+  {
+    "id": "chinese-cabbage",
+    "name": "大白菜",
+    "months": [
+      10,
+      11,
+      12
+    ],
+    "origins": "北京、河北、山东、河南等地",
+    "taste": "菜帮脆嫩，煮后柔软清甜",
+    "pick": [
+      "叶片新鲜，菜球完整",
+      "底部结实，没有腐烂碰伤"
+    ],
+    "avoid": "叶片黏滑、有腐臭味的不要买。",
+    "storage": "完整未切开时先去除腐败外叶，保持表面干爽，置于冷凉通风处；家中温暖时分装冷藏。切开后包好冷藏并尽快食用。",
+    "sources": [
+      {
+        "title": "北京市农业农村局：当前露地大白菜生产管理建议",
+        "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202610/t20261023_4915633.html",
+        "kind": "season"
+      },
+      {
+        "title": "农业农村部：消费者吃上放心菜，好白菜卖出好价钱",
+        "url": "https://scs.moa.gov.cn/ccll/mtbd/202401/t20240105_6444082.htm",
+        "kind": "guide"
+      },
+      {
+        "title": "农粮署：选购蔬菜要领",
+        "url": "https://www.afa.gov.tw/cht/index.php?code=list&ids=656",
+        "kind": "guide"
+      },
+      {
+        "title": "重庆市卫健委：家庭如何科学储存食品",
+        "url": "https://wsjkw.cq.gov.cn/ztzl_242/jkkp/202210/t20221014_11187729.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。北方秋白菜多在秋末采收，冬季还包括贮藏供应；未覆盖全国春白菜茬口。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "bok-choy",
+    "name": "小白菜",
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "origins": "长江流域、华北等多地种植",
+    "taste": "叶嫩梗脆，味道清淡",
+    "pick": [
+      "叶片挺立，不枯黄",
+      "菜梗饱满，切口无腐烂"
+    ],
+    "avoid": "萎烂、黏滑或有异味的不要买。",
+    "storage": "完整未切开时不要先洗，摘去烂叶并擦干表面水分，用透气保鲜袋装好冷藏，避开冰箱内壁；少量购买，尽快食用。",
+    "sources": [
+      {
+        "title": "北京市政府：非主要农作物品种登记信息（小白菜四季栽培品种）",
+        "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202204/W020220417857831999352.pdf",
+        "kind": "season"
+      },
+      {
+        "title": "农业农村部：早熟5号白菜品种简介（含小白菜栽培茬口）",
+        "url": "https://zys.moa.gov.cn/gzdt/202303/P020230303293803119574.pdf",
+        "kind": "season"
+      },
+      {
+        "title": "农粮署：选购蔬菜要领",
+        "url": "https://www.afa.gov.tw/cht/index.php?code=list&ids=656",
+        "kind": "guide"
+      },
+      {
+        "title": "上海市农业农村委：农产品怎么保存",
+        "url": "https://nyncw.sh.gov.cn/tpxw/20240208/6b8742f61f7746bb9fe55fdafb234be7.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。耐热、耐寒品种可分茬栽培，全年可有生产；不同品种的适宜季节不同，不能据此认定所有地方全年同样应季。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31",
+    "aliases": [
+      "青菜"
+    ]
+  },
+  {
+    "id": "spinach",
+    "name": "菠菜",
+    "months": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "origins": "全国多地种植，具体产区未逐项核对",
+    "taste": "叶柔嫩，带菠菜特有清香",
+    "pick": [
+      "叶片完整饱满",
+      "茎叶鲜嫩，没有抽薹开花"
+    ],
+    "avoid": "大片黄叶、黏烂和异味要避开。",
+    "storage": "完整未切开时先摘去坏叶，不要预先清洗；待表面干爽后用保鲜袋分装冷藏，避免挤压和贴冰箱内壁，并尽快吃完。",
+    "sources": [
+      {
+        "title": "湖北省卫健委：春季饮食与时令鲜蔬",
+        "url": "https://wjw.hubei.gov.cn/bmdt/jkhb/spyy/202603/t20260311_5889863.shtml",
+        "kind": "season"
+      },
+      {
+        "title": "农粮署：选购蔬菜要领",
+        "url": "https://www.afa.gov.tw/cht/index.php?code=list&ids=656",
+        "kind": "guide"
+      },
+      {
+        "title": "上海市农业农村委：农产品怎么保存",
+        "url": "https://nyncw.sh.gov.cn/tpxw/20240208/6b8742f61f7746bb9fe55fdafb234be7.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。已核实春季为时令菜；秋季月份为冷凉季节的通用参考，尚未取得覆盖全部秋季月份的逐月依据。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "broccoli",
+    "name": "西兰花",
+    "months": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "origins": "浙江临海；宁夏固原等冷凉产区",
+    "taste": "花球细嫩，茎部清脆",
+    "pick": [
+      "花球紧实，未开花",
+      "梗部坚实，无软烂异味"
+    ],
+    "avoid": "花球明显变黄、发霉或软烂要避开。",
+    "storage": "完整未切开时保持花球干爽，不要先浸洗；用保鲜袋包好放冷藏室，避免结露和挤压，尽快烹调，不把冰箱当长期仓库。",
+    "sources": [
+      {
+        "title": "台州市农业科学研究院：临海市西兰花产业现状、存在问题和发展对策",
+        "url": "https://yangtze.silkroadinfo.org.cn/2017/3/10/20170310101642.pdf",
+        "kind": "season"
+      },
+      {
+        "title": "固原市原州区政府：冷凉蔬菜西兰花大面积上市",
+        "url": "https://www.yzh.gov.cn/xwzx/tpxw/202507/t20250702_4949862.html",
+        "kind": "season"
+      },
+      {
+        "title": "江苏省农科院专家谈蔬菜保鲜（亭湖区政府科普）",
+        "url": "https://www.tinghu.gov.cn/art/2022/5/19/art_31891_3854645.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。月份主要依据浙江临海冬春茬；宁夏等冷凉地区也有夏季上市，未把各地所有茬口合并为全国全年应季。选购为外观通用参考。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31",
+    "aliases": [
+      "青花菜"
+    ]
+  },
+  {
+    "id": "cauliflower",
+    "name": "花菜",
+    "months": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "origins": "广东台山等秋冬产区；其他产区错峰种植",
+    "taste": "花梗脆嫩，煮后柔软",
+    "pick": [
+      "花球完整，没有霉斑",
+      "梗部鲜脆，不干硬木质化"
+    ],
+    "avoid": "软烂、异味或霉斑要避开。",
+    "storage": "完整未切开时保留干爽外叶，不要预先清洗；装入保鲜袋冷藏，避免花球被压伤和水汽积聚。切分后包好，尽快烹调。",
+    "sources": [
+      {
+        "title": "台山市农业农村局：花椰菜生产规程",
+        "url": "https://www.cnts.gov.cn/zfgzbm/snyncj/nyjz/content/post_745087.html",
+        "kind": "season"
+      },
+      {
+        "title": "农粮署：选购蔬菜要领",
+        "url": "https://www.afa.gov.tw/cht/index.php?code=list&ids=656",
+        "kind": "guide"
+      },
+      {
+        "title": "江苏省农科院专家谈蔬菜保鲜（亭湖区政府科普）",
+        "url": "https://www.tinghu.gov.cn/art/2022/5/19/art_31891_3854645.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。月份主要依据台山都斛花椰菜秋冬栽培资料；松花菜和紧花菜疏密不同，不能仅凭花球松紧判断新鲜度。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31",
+    "aliases": [
+      "菜花",
+      "花椰菜"
+    ]
+  },
+  {
+    "id": "cabbage",
+    "name": "包菜",
+    "months": [
+      4,
+      5,
+      6,
+      10,
+      11,
+      12
+    ],
+    "origins": "湖南、湖北嘉鱼、贵州等地",
+    "taste": "生脆熟甜，叶片有嚼感",
+    "pick": [
+      "叶球完整，底部结实",
+      "外叶新鲜，无腐烂碰伤"
+    ],
+    "avoid": "内部软烂、霉变或有异味的不要买。",
+    "storage": "完整未切开时保留完好的外叶，保持表面干爽，置于冷凉处或分装冷藏；切开后覆盖切面再冷藏，优先安排食用。",
+    "sources": [
+      {
+        "title": "衡阳市政府：春甘蓝抢鲜上市",
+        "url": "https://www.hengyang.gov.cn/xxgk/dtxx/hydt/20240429/i3325209.html",
+        "kind": "season"
+      },
+      {
+        "title": "武汉市商务局：春淡结束，夏令菜入市",
+        "url": "https://sw.wuhan.gov.cn/xwdt/gzdt/202204/t20220426_1961872.shtml",
+        "kind": "season"
+      },
+      {
+        "title": "农业农村部：全国蔬菜生产信息周报（2016年5月）",
+        "url": "https://zzys.moa.gov.cn/gzdt/201605/t20160531_6310076.htm",
+        "kind": "season"
+      },
+      {
+        "title": "农粮署：选购蔬菜要领",
+        "url": "https://www.afa.gov.tw/cht/index.php?code=list&ids=656",
+        "kind": "guide"
+      },
+      {
+        "title": "重庆市卫健委：家庭如何科学储存食品",
+        "url": "https://wsjkw.cq.gov.cn/ztzl_242/jkkp/202210/t20221014_11187729.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。春季上市有湖南、湖北实例；秋冬月份为通用冷凉季参考，未逐月核实。口感和保存是家庭通用参考，非具体品种试验结论。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31",
+    "aliases": [
+      "圆白菜",
+      "卷心菜",
+      "甘蓝"
+    ]
+  },
+  {
+    "id": "radish",
+    "name": "白萝卜",
+    "months": [
+      1,
+      2,
+      10,
+      11,
+      12
+    ],
+    "origins": "北京等北方秋茬产区；南方也有冬春栽培",
+    "taste": "生食脆爽略辛，熟后清甜",
+    "pick": [
+      "表皮完整，摸起来坚实",
+      "同样大小选拿着较沉的"
+    ],
+    "avoid": "软塌、霉变、腐烂和异味要避开。",
+    "storage": "完整未切开时保持表面干爽，可装袋放冷凉处或冰箱冷藏；切开后包好切面并冷藏，避免失水，保存期间勤检查，尽快食用。",
+    "sources": [
+      {
+        "title": "北京市农业农村局：秋露地根菜收获期指导",
+        "url": "https://nyncj.beijing.gov.cn/nyj/zwgk/ztgk/nyjstgqk/743728950/index.html",
+        "kind": "season"
+      },
+      {
+        "title": "哈密市市场监管局：关于萝卜的消费提示",
+        "url": "https://www.hami.gov.cn/hami/c120182/202501/1019252cd8774d6b859730491ac55eda.shtml",
+        "kind": "guide"
+      },
+      {
+        "title": "江苏省农科院专家谈蔬菜保鲜（亭湖区政府科普）",
+        "url": "https://www.tinghu.gov.cn/art/2022/5/19/art_31891_3854645.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。秋末采收与冬季选购参考合并展示；冬季会有贮藏菜，不等于每个月都在本地自然成熟。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "carrot",
+    "name": "胡萝卜",
+    "months": [
+      10,
+      11
+    ],
+    "origins": "北京、内蒙古等北方秋茬产区",
+    "taste": "清脆微甜，煮后绵软",
+    "pick": [
+      "表面平整，无明显裂口",
+      "根部结实，无软烂和霉斑"
+    ],
+    "avoid": "黏滑、发霉、腐烂的不要买。",
+    "storage": "完整未切开时去掉明显坏损部分，不要预先浸洗，保持表面干爽后分装，置于冷凉处或冰箱冷藏；切开后包好并尽快用完。",
+    "sources": [
+      {
+        "title": "北京市农业农村局：秋露地胡萝卜绿色高效生产技术指导",
+        "url": "https://nyncj.beijing.gov.cn/nyj/zwgk/ztgk/nyjstgqk/744070591/index.html",
+        "kind": "season"
+      },
+      {
+        "title": "农粮署：选购蔬菜要领",
+        "url": "https://www.afa.gov.tw/cht/index.php?code=list&ids=656",
+        "kind": "guide"
+      },
+      {
+        "title": "芝罘区政府：果蔬存放小窍门",
+        "url": "https://www.zhifu.gov.cn/art/2022/11/10/art_15564_2930236.html",
+        "kind": "guide"
+      },
+      {
+        "title": "重庆市卫健委：家庭如何科学储存食品",
+        "url": "https://wsjkw.cq.gov.cn/ztzl_242/jkkp/202210/t20221014_11187729.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。月份以北方秋茬为例；我国另有春茬、南方冬茬和贮藏供应。内蒙古产区为已查到的采收报道示例，非主产区排名。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "lotus-root",
+    "name": "莲藕",
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+    ],
+    "origins": "湖北洪湖、汉川等水乡产区",
+    "taste": "脆藕爽口，粉藕炖后粉糯",
+    "pick": [
+      "藕身饱满，没有明显外伤",
+      "闻起来无酸败或其他异味"
+    ],
+    "avoid": "霉变、黏烂和明显异味要避开。",
+    "storage": "完整未切开的莲藕避免碰伤和暴晒，可保持表面干爽后装袋冷藏；切开后覆盖切面并冷藏，尽快烹调，发现黏烂或异味即丢弃。",
+    "sources": [
+      {
+        "title": "湖北省农业农村厅：洪湖秋来挖藕忙",
+        "url": "https://nyt.hubei.gov.cn/bmdt/yw/mtksn/202609/t20260923_6021025.shtml",
+        "kind": "season"
+      },
+      {
+        "title": "湖北省农业农村厅：汉川莲藕采挖与藕鳖共养",
+        "url": "https://nyt.hubei.gov.cn/bmdt/yw/szdt/202602/t20260224_5879000.shtml",
+        "kind": "season"
+      },
+      {
+        "title": "湖南省市场监管局：莲藕选购提示",
+        "url": "https://amr.hunan.gov.cn/amr/ztx/cjxxx/202207/t20220719_27561576.html",
+        "kind": "guide"
+      },
+      {
+        "title": "芝罘区政府：果蔬存放小窍门",
+        "url": "https://www.zhifu.gov.cn/art/2022/11/10/art_15564_2930236.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。月份主要依据湖北汉川9月至次年4月采挖实例；嫩藕还可在其他时段上市。脆粉取决于品种与成熟度，不能只按孔数判断。家庭保存为通用参考。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "yam",
+    "name": "山药",
+    "months": [
+      10,
+      11,
+      12
+    ],
+    "origins": "河南、河北、湖北、山东、山西等地",
+    "taste": "脆山药爽口，粉山药绵糯",
+    "pick": [
+      "外表完整，没有破损腐烂",
+      "同等大小拿着有分量"
+    ],
+    "avoid": "处理黏液时戴手套，避免皮肤刺激。",
+    "storage": "完整未切开的山药保留表皮，放在阴凉通风处，避免受潮和磕伤；若不能及时吃完，可处理分装后冷冻，并标注日期。",
+    "sources": [
+      {
+        "title": "云南省农业农村厅：2026年全国山药生产技术指导意见",
+        "url": "https://nync.yn.gov.cn/html/2026/sannongkepu_0320/1425116.html",
+        "kind": "season"
+      },
+      {
+        "title": "福州市政府：山药消费提示",
+        "url": "https://www.fuzhou.gov.cn/zgfzzt/spypaq/bjspxfjs/202505/t20250512_5017370.htm",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。以北方秋末采挖为主；全国指导意见指出南方早熟品种可7月起采挖，晚熟品种可延续到次年春季。不同品种保存条件有差异，本页不承诺统一天数。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "pumpkin",
+    "name": "南瓜",
+    "months": [
+      9,
+      10
+    ],
+    "origins": "重庆涪陵、云南牟定等地",
+    "taste": "老南瓜软糯甘甜，嫩瓜更清脆",
+    "pick": [
+      "瓜皮完整，瓜蒂无腐烂",
+      "拿着坚实饱满，有分量"
+    ],
+    "avoid": "有霉斑、渗液、软烂或异味要避开。",
+    "storage": "完整未切开的老南瓜放在阴凉、干燥、通风处，远离热源与日晒；切开后去瓤籽，擦干并包好冷藏，尽快食用并检查变质。",
+    "sources": [
+      {
+        "title": "重庆市农业农村委：涪陵蜜本南瓜采收",
+        "url": "https://nyncw.cq.gov.cn/zwxx_161/qxlb/202309/t20230906_12310254.html",
+        "kind": "season"
+      },
+      {
+        "title": "牟定县政府：林下南瓜集中采收",
+        "url": "https://www.mdx.gov.cn/info/1042/383765.htm",
+        "kind": "season"
+      },
+      {
+        "title": "农业部食农教育平台：南瓜挑选四秘诀",
+        "url": "https://fae.moa.gov.tw/theme_data.php?id=4642&sub_theme=knowledge&theme=topics",
+        "kind": "guide"
+      },
+      {
+        "title": "内蒙古自治区农牧厅：南瓜的储藏与保鲜",
+        "url": "https://nmt.nmg.gov.cn/yw/syjs/ccybx/202508/t20250827_2780513.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。月份主要来自蜜本南瓜秋收实例；嫩南瓜、贝贝等其他品种上市期可能不同。没有把整瓜耐贮藏结论套用于切开的瓜。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "sweet-potato",
+    "name": "红薯",
+    "months": [
+      8,
+      9,
+      10
+    ],
+    "origins": "河南等北方甘薯产区；南方另有不同茬口",
+    "taste": "品种有粉糯、软甜和流蜜差别",
+    "pick": [
+      "薯体结实，表皮无明显破损",
+      "无霉斑、腐烂和异常气味"
+    ],
+    "avoid": "出现霉变、腐败和异常苦味时勿食。",
+    "storage": "完整未切开的红薯放在通风、避光、干燥的冷凉处，避免受冻；不要长期放普通冰箱冷藏，少量购买并勤检查，尽快食用。",
+    "sources": [
+      {
+        "title": "河南省农业科学院：甘薯收获及安全贮藏技术",
+        "url": "https://www.hnagri.org.cn/article-15481.html",
+        "kind": "season"
+      },
+      {
+        "title": "江苏省农科院专家谈蔬菜保鲜（亭湖区政府科普）",
+        "url": "https://www.tinghu.gov.cn/art/2022/5/19/art_31891_3854645.html",
+        "kind": "guide"
+      },
+      {
+        "title": "上海市市场监管局：不同食物的冰箱保存提示",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250207/84ab66f27d9d4a1aa4926ba824ab115c.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。河南资料显示早熟鲜食薯可8月上市，常规秋收多在霜降前；不据此概括所有南方产区。口感、选购为通用参考，未逐个品种核验。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31",
+    "aliases": [
+      "地瓜",
+      "番薯"
+    ]
+  },
+  {
+    "id": "potato",
+    "name": "土豆",
+    "months": [
+      9,
+      10
+    ],
+    "origins": "北方一季作区；中原、西南、南方也有栽培区",
+    "taste": "有粉糯与脆爽品种，做法各异",
+    "pick": [
+      "薯体结实，没有腐烂伤口",
+      "表皮正常，不发绿、不发芽"
+    ],
+    "avoid": "不选发绿、发芽、腐烂的土豆。",
+    "storage": "完整未切开的土豆放在避光、阴凉、通风处，避免日晒和潮湿，定期检查发绿发芽；不要久囤，切开后及时烹调。",
+    "sources": [
+      {
+        "title": "农业农村部：2024年10月农产品供需形势分析（马铃薯集中收获期）",
+        "url": "https://www.moa.gov.cn/ztzl/nybrl/rlxx/202410/P020241023377468835231.pdf",
+        "kind": "season"
+      },
+      {
+        "title": "农业农村部：马铃薯贮藏保鲜操作规程",
+        "url": "https://scs.moa.gov.cn/ccll/jszn/202302/t20230203_6419765.htm",
+        "kind": "guide"
+      },
+      {
+        "title": "重庆市市场监管局：部分蔬果食品安全消费提示",
+        "url": "https://scjgj.cq.gov.cn/zz/ybq/zfxxgkml/spypjglyjczwgkzl/ggfw/spaqxftsjs/202112/t20211216_10181575.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。月份主要为北方秋收参考，全国有四大栽培区，其他地区还有春收、冬作；贮藏供应不等于自然成熟月份。保存期限随品种和温湿度变化。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31",
+    "aliases": [
+      "马铃薯",
+      "洋芋"
+    ]
+  },
+  {
+    "id": "tomato",
+    "name": "番茄",
+    "months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "origins": "湖北武汉、宁夏青铜峡等地",
+    "taste": "酸甜多汁，粉沙感随品种变化",
+    "pick": [
+      "果皮完整，萼片新鲜",
+      "轻按有弹性，不软烂渗汁"
+    ],
+    "avoid": "不买腐烂果；未成熟青番茄不宜食用。",
+    "storage": "完整成熟的番茄可放冷凉通风处，天气热时短期冷藏并尽快吃；未成熟果不宜过早低温存放，切开后覆盖冷藏，尽快用完。",
+    "sources": [
+      {
+        "title": "武汉市商务局：春淡结束，夏令菜入市",
+        "url": "https://sw.wuhan.gov.cn/xwdt/gzdt/202204/t20220426_1961872.shtml",
+        "kind": "season"
+      },
+      {
+        "title": "农业农村部：全国蔬菜生产信息周报（2016年5月）",
+        "url": "https://zzys.moa.gov.cn/gzdt/201605/t20160531_6310076.htm",
+        "kind": "season"
+      },
+      {
+        "title": "盐城市农业农村局：茄子、辣椒、黄瓜、番茄这些蔬菜咋挑选",
+        "url": "https://snw.yancheng.gov.cn/art/2025/6/9/art_18988_4328701.html",
+        "kind": "guide"
+      },
+      {
+        "title": "江苏省农科院专家谈蔬菜保鲜（亭湖区政府科普）",
+        "url": "https://www.tinghu.gov.cn/art/2022/5/19/art_31891_3854645.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。月份是春末至夏秋上市的通用概括；武汉、宁夏存在不同茬口，设施番茄可全年供应。不能用颜色是否鲜红单独判断是否使用催熟剂。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31",
+    "aliases": [
+      "西红柿"
+    ]
+  },
+  {
+    "id": "cucumber",
+    "name": "黄瓜",
+    "months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "origins": "上海等多地种植，未建立全国产区清单",
+    "taste": "脆爽多汁，品种清香程度不同",
+    "pick": [
+      "瓜身硬挺，没有软陷",
+      "表面完整，无腐烂异味"
+    ],
+    "avoid": "软烂、发霉或有异味的不要买。",
+    "storage": "完整未切开的黄瓜保持表面干爽，放在冷凉通风处；夏季高温可短期装袋冷藏，避免长期低温受冷害，切开后冷藏并尽快吃。",
+    "sources": [
+      {
+        "title": "哈密市政府：夏季时令瓜类食用提示",
+        "url": "https://www.hami.gov.cn/hami/c120182/202607/0582767fcbf44daab8fccd850d1873ca.shtml",
+        "kind": "season"
+      },
+      {
+        "title": "上海市政府：九月蔬菜生产技术指导意见",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260903/9f7c1b4dbd0e4774a2dc509a662820cc.html",
+        "kind": "season"
+      },
+      {
+        "title": "盐城市农业农村局：茄子、辣椒、黄瓜、番茄这些蔬菜咋挑选",
+        "url": "https://snw.yancheng.gov.cn/art/2025/6/9/art_18988_4328701.html",
+        "kind": "guide"
+      },
+      {
+        "title": "江苏省农科院专家谈蔬菜保鲜（亭湖区政府科普）",
+        "url": "https://www.tinghu.gov.cn/art/2022/5/19/art_31891_3854645.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。夏季与上海9月采收资料共同作参考；不含全国所有设施、早春和晚秋茬口。不能仅凭瓜刺、花朵或颜色断言是否使用植物生长调节剂。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "eggplant",
+    "name": "茄子",
+    "months": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "origins": "上海等多地种植，未建立全国产区清单",
+    "taste": "熟后柔软，长茄和圆茄口感有别",
+    "pick": [
+      "表皮饱满，果柄较新鲜",
+      "轻按有弹性，没有软烂"
+    ],
+    "avoid": "软烂、霉斑和异常气味要避开。",
+    "storage": "完整未切开的茄子保持表面干爽，放冷凉处；高温时可装袋短期冷藏，避免长期低温冷害。切开后及时烹调，少量买、尽快吃。",
+    "sources": [
+      {
+        "title": "上海市政府：九月蔬菜生产技术指导意见",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260903/9f7c1b4dbd0e4774a2dc509a662820cc.html",
+        "kind": "season"
+      },
+      {
+        "title": "北京市市场监管局：秋茄子、秋瓜食用科普",
+        "url": "https://scjgj.beijing.gov.cn/zwxx/scjgdt/202609/t20260917_4868520.html",
+        "kind": "season"
+      },
+      {
+        "title": "盐城市农业农村局：茄子、辣椒、黄瓜、番茄这些蔬菜咋挑选",
+        "url": "https://snw.yancheng.gov.cn/art/2025/6/9/art_18988_4328701.html",
+        "kind": "guide"
+      },
+      {
+        "title": "江苏省农科院专家谈蔬菜保鲜（亭湖区政府科普）",
+        "url": "https://www.tinghu.gov.cn/art/2022/5/19/art_31891_3854645.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。已核实上海9月采收与秋季选购；6—8月、10月为夏秋常见季节的通用参考，尚无逐月覆盖全国的依据。所谓秋茄子有毒不能成立。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "bell-pepper",
+    "name": "甜椒",
+    "months": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "origins": "北京、云南宜良等地",
+    "taste": "果肉脆厚，通常少辣或不辣",
+    "pick": [
+      "果肉饱满，表皮无软烂",
+      "果柄牢固，拿着较结实"
+    ],
+    "avoid": "局部软烂、黑腐和异味要避开。",
+    "storage": "完整未切开的甜椒保持表面干爽，放冷凉通风处；高温时可短期装袋冷藏，避免长期低温。切开后包好冷藏，尽快食用。",
+    "sources": [
+      {
+        "title": "北京市农业农村局：春大棚和越夏大棚辣甜椒开花结果期指导",
+        "url": "https://nyncj.beijing.gov.cn/nyj/zwgk/ztgk/nyjstgqk/744038878/index.html",
+        "kind": "season"
+      },
+      {
+        "title": "农业农村部：全国蔬菜生产信息周报（2016年5月）",
+        "url": "https://zzys.moa.gov.cn/gzdt/201605/t20160531_6310076.htm",
+        "kind": "season"
+      },
+      {
+        "title": "盐城市农业农村局：茄子、辣椒、黄瓜、番茄这些蔬菜咋挑选",
+        "url": "https://snw.yancheng.gov.cn/art/2025/6/9/art_18988_4328701.html",
+        "kind": "guide"
+      },
+      {
+        "title": "江苏省农科院专家谈蔬菜保鲜（亭湖区政府科普）",
+        "url": "https://www.tinghu.gov.cn/art/2022/5/19/art_31891_3854645.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。这里有明确的设施种植依据：北京春大棚、越夏大棚约5月至10月采收；不能将这组月份标为全国露地自然成熟期。宜良供应资料仅覆盖当年5—6月。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31",
+    "seasonKind": "设施上市参考"
+  },
+  {
+    "id": "green-bean",
+    "name": "四季豆",
+    "months": [
+      5,
+      6
+    ],
+    "origins": "湖北鄂州、云南宜良等地",
+    "taste": "嫩荚脆嫩，豆粒长大会更有纤维感",
+    "pick": [
+      "豆荚饱满，不干瘪",
+      "荚身细嫩，豆粒不明显鼓起"
+    ],
+    "avoid": "必须煮熟煮透，不能生吃或凉拌。",
+    "storage": "完整未切开的豆荚保持干爽，可用透气袋分装后短期冷藏；避免长期低温和水汽积聚，尽快烹调，食用时仍须煮熟煮透。",
+    "sources": [
+      {
+        "title": "鄂州市政府：汀祖镇四季豆5月采收",
+        "url": "https://www.ezhou.gov.cn/sy/tpxw/202605/t20260526_765922.html",
+        "kind": "season"
+      },
+      {
+        "title": "农业农村部：全国蔬菜生产信息周报（2016年5月）",
+        "url": "https://zzys.moa.gov.cn/gzdt/201605/t20160531_6310076.htm",
+        "kind": "season"
+      },
+      {
+        "title": "农粮署：选购蔬菜要领",
+        "url": "https://www.afa.gov.tw/cht/index.php?code=list&ids=656",
+        "kind": "guide"
+      },
+      {
+        "title": "东莞市市场监管局：四季豆一定要煮熟煮透",
+        "url": "https://dgamr.dg.gov.cn/zdlyxxgk/spypaq/spypaqxfjs/content/post_3708691.html",
+        "kind": "guide"
+      },
+      {
+        "title": "上海市市场监管局：不同食物的冰箱保存提示",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250207/84ab66f27d9d4a1aa4926ba824ab115c.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。仅将已找到的鄂州5月、宜良5—6月实例列为月份参考；北方夏季和南方秋冬另有栽培，本页尚未补齐，不应读为只有这两个月应季。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31",
+    "aliases": [
+      "菜豆",
+      "芸豆"
+    ]
+  },
+  {
+    "id": "bitter-melon",
+    "name": "苦瓜",
+    "months": [
+      6,
+      7,
+      8
+    ],
+    "origins": "温暖地区广泛栽培；具体产区尚未逐项核对",
+    "taste": "清脆带苦，苦度随品种变化",
+    "pick": [
+      "瓜形完整，拿着结实",
+      "表皮无霉变和软烂"
+    ],
+    "avoid": "渗液、软烂、发霉和异味要避开。",
+    "storage": "完整未切开的苦瓜避免磕碰与日晒，可保持干爽后装袋短期冷藏；不宜久囤，切开后覆盖切面并冷藏，尽快食用。",
+    "sources": [
+      {
+        "title": "哈密市政府：夏季时令瓜类食用提示",
+        "url": "https://www.hami.gov.cn/hami/c120182/202607/0582767fcbf44daab8fccd850d1873ca.shtml",
+        "kind": "season"
+      },
+      {
+        "title": "农粮署：选购蔬菜要领",
+        "url": "https://www.afa.gov.tw/cht/index.php?code=list&ids=656",
+        "kind": "guide"
+      },
+      {
+        "title": "重庆市卫健委：家庭如何科学储存食品",
+        "url": "https://wsjkw.cq.gov.cn/ztzl_242/jkkp/202210/t20221014_11187729.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。月份按夏季时令瓜类作宽泛参考；来源未给出全国产区或逐月采收表。保存方法为瓜果蔬菜家庭通用参考，未取得苦瓜专门的保存天数依据。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "id": "winter-melon",
+    "name": "冬瓜",
+    "months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "origins": "上海、湖南汉寿等地",
+    "taste": "清淡多汁，熟后柔软易吸味",
+    "pick": [
+      "整瓜外皮完整，无软烂",
+      "切块看瓜肉完整，无黏液异味"
+    ],
+    "avoid": "切面发霉、黏滑或有酸败味勿食。",
+    "storage": "完整未切开的冬瓜避免磕碰，放冷凉通风处；买回切块需覆盖切面并冷藏，尽快烹调，保存中发现霉变、黏滑或异味即丢弃。",
+    "sources": [
+      {
+        "title": "哈密市政府：夏季时令瓜类食用提示",
+        "url": "https://www.hami.gov.cn/hami/c120182/202607/0582767fcbf44daab8fccd850d1873ca.shtml",
+        "kind": "season"
+      },
+      {
+        "title": "上海市政府：九月蔬菜生产技术指导意见",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260903/9f7c1b4dbd0e4774a2dc509a662820cc.html",
+        "kind": "season"
+      },
+      {
+        "title": "农业农村部：全国蔬菜生产信息周报（2016年5月）",
+        "url": "https://zzys.moa.gov.cn/gzdt/201605/t20160531_6310076.htm",
+        "kind": "season"
+      },
+      {
+        "title": "重庆市卫健委：家庭如何科学储存食品",
+        "url": "https://wsjkw.cq.gov.cn/ztzl_242/jkkp/202210/t20221014_11187729.html",
+        "kind": "guide"
+      }
+    ],
+    "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。夏季参考与上海9月采收资料合并；整瓜和切块耐存放程度不同。挑选和切块冷藏是通用参考，尚无本条具体品种的保存期限试验依据。",
+    "category": "vegetable",
+    "checkedAt": "2026-10-31"
+  }
+]
