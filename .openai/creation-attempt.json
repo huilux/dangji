@@ -1,8 +1,0 @@
-{
-  "slug": "dangji-market-guide",
-  "title": "当季买什么",
-  "attempted_on": "2026-10-31",
-  "result": "transport_error_no_project_id_returned",
-  "reconciliation": "list_sites also failed with the same transport error",
-  "next_step": "Resolve the existing creation attempt by listing owned Sites and matching the exact slug before any further creation. Do not invent a project_id."
-}

@@ -38,6 +38,12 @@ node --check dist/app.mjs
 
 将 `dist/` 作为静态网站根目录即可，无服务端和运行时依赖。定位功能需要 HTTPS 或浏览器认可的本机安全来源。内容使用相对路径，支持静态子目录部署。
 
+GitHub 仓库：[huilux/dangji](https://github.com/huilux/dangji)。网站地址：[当季买什么](https://huilux.github.io/dangji/)。
+
+`.github/workflows/pages.yml` 在推送 `main` 或手动运行时执行内容和语法检查，通过后仅上传 `dist/` 到 GitHub Pages。仓库的 Settings → Pages → Source 需选择 GitHub Actions；Actions 使用仓库自带的短期令牌，不需要额外配置密钥。首次发布等待对应工作流成功；后续直接提交并推送更新即可。
+
+免费 Pages 使用公开仓库。国内网络访问效果需实测，不能保证不同运营商都能稳定访问。
+
 ## 第三方资产
 
 食材图片的逐张作者与许可见网页“图片署名”和 `dist/photos.json`。图片经缩放及 JPEG 压缩，在卡片中可能被裁切。CC BY-SA 图像沿用各自许可。
@@ -46,13 +52,9 @@ node --check dist/app.mjs
 
 设计文档参考：[Starbucks DESIGN.md](https://github.com/VoltAgent/awesome-design-md/blob/main/design-md/starbucks/DESIGN.md)。采用本项目的原创标志和系统中文字体。
 
-## 本次发布状态
-
-本地版本已制作。Sites 创建请求和后续查询均遇到服务连接错误，没有收到可确认的站点 ID 或部署 URL。恢复发布时请先查询已拥有的 Sites，以准确匹配 `dangji-market-guide` 的现有创建尝试，不能盲目重复创建；记录见 `.openai/creation-attempt.json`。
-
 ## Git 与这一轮 UI 优化
 
-本目录已初始化为本地 Git 仓库，主分支为 `main`，原始版本基线为 `9b5da72`。未配置远程仓库；生成的 `preview.html` 不入库，可以从源文件重新生成。
+本目录已初始化为本地 Git 仓库，主分支为 `main`，原始版本基线为 `9b5da72`。远程仓库为 `huilux/dangji`；生成的 `preview.html` 不入库，可以从源文件重新生成。
 
 手机清单采用单列横向卡片，名称、产季和详情入口保持可读；月份按需展开，分类和搜索工具栏随滚动保留。搜索覆盖全部月份，所选月份继续用于产季提示；搜索、分类和月份会保留在 URL，刷新后恢复。
 
