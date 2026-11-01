@@ -829,7 +829,8 @@
     ],
     "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。北方秋白菜多在秋末采收，冬季还包括贮藏供应；未覆盖全国春白菜茬口。",
     "category": "vegetable",
-    "checkedAt": "2026-10-31"
+    "checkedAt": "2026-10-31",
+    "group": "leafy"
   },
   {
     "id": "bok-choy",
@@ -883,7 +884,8 @@
     "checkedAt": "2026-10-31",
     "aliases": [
       "青菜"
-    ]
+    ],
+    "group": "leafy"
   },
   {
     "id": "spinach",
@@ -923,7 +925,8 @@
     ],
     "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。已核实春季为时令菜；秋季月份为冷凉季节的通用参考，尚未取得覆盖全部秋季月份的逐月依据。",
     "category": "vegetable",
-    "checkedAt": "2026-10-31"
+    "checkedAt": "2026-10-31",
+    "group": "leafy"
   },
   {
     "id": "broccoli",
@@ -965,7 +968,8 @@
     "checkedAt": "2026-10-31",
     "aliases": [
       "青花菜"
-    ]
+    ],
+    "group": "leafy"
   },
   {
     "id": "cauliflower",
@@ -1008,7 +1012,8 @@
     "aliases": [
       "菜花",
       "花椰菜"
-    ]
+    ],
+    "group": "leafy"
   },
   {
     "id": "cabbage",
@@ -1063,7 +1068,8 @@
       "圆白菜",
       "卷心菜",
       "甘蓝"
-    ]
+    ],
+    "group": "leafy"
   },
   {
     "id": "radish",
@@ -1102,7 +1108,8 @@
     ],
     "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。秋末采收与冬季选购参考合并展示；冬季会有贮藏菜，不等于每个月都在本地自然成熟。",
     "category": "vegetable",
-    "checkedAt": "2026-10-31"
+    "checkedAt": "2026-10-31",
+    "group": "root"
   },
   {
     "id": "carrot",
@@ -1143,7 +1150,8 @@
     ],
     "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。月份以北方秋茬为例；我国另有春茬、南方冬茬和贮藏供应。内蒙古产区为已查到的采收报道示例，非主产区排名。",
     "category": "vegetable",
-    "checkedAt": "2026-10-31"
+    "checkedAt": "2026-10-31",
+    "group": "root"
   },
   {
     "id": "lotus-root",
@@ -1190,7 +1198,8 @@
     ],
     "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。月份主要依据湖北汉川9月至次年4月采挖实例；嫩藕还可在其他时段上市。脆粉取决于品种与成熟度，不能只按孔数判断。家庭保存为通用参考。",
     "category": "vegetable",
-    "checkedAt": "2026-10-31"
+    "checkedAt": "2026-10-31",
+    "group": "root"
   },
   {
     "id": "yam",
@@ -1222,7 +1231,8 @@
     ],
     "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。以北方秋末采挖为主；全国指导意见指出南方早熟品种可7月起采挖，晚熟品种可延续到次年春季。不同品种保存条件有差异，本页不承诺统一天数。",
     "category": "vegetable",
-    "checkedAt": "2026-10-31"
+    "checkedAt": "2026-10-31",
+    "group": "root"
   },
   {
     "id": "pumpkin",
@@ -1263,7 +1273,8 @@
     ],
     "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。月份主要来自蜜本南瓜秋收实例；嫩南瓜、贝贝等其他品种上市期可能不同。没有把整瓜耐贮藏结论套用于切开的瓜。",
     "category": "vegetable",
-    "checkedAt": "2026-10-31"
+    "checkedAt": "2026-10-31",
+    "group": "gourd"
   },
   {
     "id": "sweet-potato",
@@ -1304,7 +1315,8 @@
     "aliases": [
       "地瓜",
       "番薯"
-    ]
+    ],
+    "group": "root"
   },
   {
     "id": "potato",
@@ -1344,7 +1356,8 @@
     "aliases": [
       "马铃薯",
       "洋芋"
-    ]
+    ],
+    "group": "root"
   },
   {
     "id": "tomato",
@@ -1391,7 +1404,8 @@
     "checkedAt": "2026-10-31",
     "aliases": [
       "西红柿"
-    ]
+    ],
+    "group": "gourd"
   },
   {
     "id": "cucumber",
@@ -1434,7 +1448,8 @@
     ],
     "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。夏季与上海9月采收资料共同作参考；不含全国所有设施、早春和晚秋茬口。不能仅凭瓜刺、花朵或颜色断言是否使用植物生长调节剂。",
     "category": "vegetable",
-    "checkedAt": "2026-10-31"
+    "checkedAt": "2026-10-31",
+    "group": "gourd"
   },
   {
     "id": "eggplant",
@@ -1478,7 +1493,8 @@
     ],
     "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。已核实上海9月采收与秋季选购；6—8月、10月为夏秋常见季节的通用参考，尚无逐月覆盖全国的依据。所谓秋茄子有毒不能成立。",
     "category": "vegetable",
-    "checkedAt": "2026-10-31"
+    "checkedAt": "2026-10-31",
+    "group": "gourd"
   },
   {
     "id": "bell-pepper",
@@ -1524,7 +1540,8 @@
     "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。这里有明确的设施种植依据：北京春大棚、越夏大棚约5月至10月采收；不能将这组月份标为全国露地自然成熟期。宜良供应资料仅覆盖当年5—6月。",
     "category": "vegetable",
     "checkedAt": "2026-10-31",
-    "seasonKind": "设施上市参考"
+    "seasonKind": "设施上市参考",
+    "group": "gourd"
   },
   {
     "id": "green-bean",
@@ -1574,7 +1591,8 @@
     "aliases": [
       "菜豆",
       "芸豆"
-    ]
+    ],
+    "group": "beans"
   },
   {
     "id": "bitter-melon",
@@ -1611,7 +1629,8 @@
     ],
     "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。月份按夏季时令瓜类作宽泛参考；来源未给出全国产区或逐月采收表。保存方法为瓜果蔬菜家庭通用参考，未取得苦瓜专门的保存天数依据。",
     "category": "vegetable",
-    "checkedAt": "2026-10-31"
+    "checkedAt": "2026-10-31",
+    "group": "gourd"
   },
   {
     "id": "winter-melon",
@@ -1654,7 +1673,8 @@
     ],
     "notes": "月份是资料所涵盖产区的采收或上市参考，设施种植、品种和天气会改变时间，不代表所在城市实时供应。夏季参考与上海9月采收资料合并；整瓜和切块耐存放程度不同。挑选和切块冷藏是通用参考，尚无本条具体品种的保存期限试验依据。",
     "category": "vegetable",
-    "checkedAt": "2026-10-31"
+    "checkedAt": "2026-10-31",
+    "group": "gourd"
   },
   {
     "id": "banana",
@@ -2590,7 +2610,8 @@
     ],
     "checkedAt": "2026-11-01",
     "notes": "月份为湖北夏秋速生叶菜8—10月分批采收参考；不同生菜品种及设施栽培可在其他月份上市。",
-    "aliases": []
+    "aliases": [],
+    "group": "leafy"
   },
   {
     "id": "you-mai-cai",
@@ -2628,7 +2649,8 @@
     ],
     "checkedAt": "2026-11-01",
     "notes": "月份为湖北8—10月分批采收参考，不代表油麦菜仅在这几个月供应。",
-    "aliases": []
+    "aliases": [],
+    "group": "leafy"
   },
   {
     "id": "chinese-kale",
@@ -2664,7 +2686,8 @@
     ],
     "checkedAt": "2026-11-01",
     "notes": "采用长江流域喜凉蔬菜11月至翌年4月集中上市的区域参考；规划为历史区域资料，不代表当前各地产量。",
-    "aliases": []
+    "aliases": [],
+    "group": "leafy"
   },
   {
     "id": "choy-sum",
@@ -2706,7 +2729,8 @@
     ],
     "checkedAt": "2026-11-01",
     "notes": "月份采用宁夏固原5—11月供应窗口；南方菜心有不同茬口，不能把宁夏窗口当作全国唯一产季。",
-    "aliases": []
+    "aliases": [],
+    "group": "leafy"
   },
   {
     "id": "crown-daisy",
@@ -2754,7 +2778,8 @@
     "checkedAt": "2026-11-01",
     "notes": "全年为敖汉旗长胜镇冷棚错峰轮作、分批采收的供应参考，不是露地自然产季，也不代表每座城市全年都有本地茼蒿。",
     "aliases": [],
-    "seasonKind": "设施供应参考"
+    "seasonKind": "设施供应参考",
+    "group": "leafy"
   },
   {
     "id": "water-spinach",
@@ -2790,7 +2815,8 @@
     "aliases": [
       "蕹菜",
       "通菜"
-    ]
+    ],
+    "group": "leafy"
   },
   {
     "id": "amaranth",
@@ -2826,7 +2852,8 @@
     "aliases": [
       "红苋菜",
       "绿苋菜"
-    ]
+    ],
+    "group": "leafy"
   },
   {
     "id": "sweet-potato-leaves",
@@ -2871,7 +2898,8 @@
       "地瓜叶",
       "薯尖"
     ],
-    "seasonKind": "露地及设施参考"
+    "seasonKind": "露地及设施参考",
+    "group": "leafy"
   },
   {
     "id": "celery",
@@ -2915,7 +2943,8 @@
     "aliases": [
       "西芹",
       "本芹"
-    ]
+    ],
+    "group": "leafy"
   },
   {
     "id": "cilantro",
@@ -2951,7 +2980,8 @@
     "notes": "月份按该地农技资料：春茬5月下旬至6月下旬、秋茬10月中下旬至11月下旬；其他产区与温室不同。",
     "aliases": [
       "芫荽"
-    ]
+    ],
+    "group": "aromatics"
   },
   {
     "id": "chinese-chives",
@@ -2992,7 +3022,8 @@
     ],
     "checkedAt": "2026-11-01",
     "notes": "农业农村部以春、秋为露地主要收割季；月份按常用春3—5月、秋9—11月映射，温室冬季生产另计。",
-    "aliases": []
+    "aliases": [],
+    "group": "aromatics"
   },
   {
     "id": "yellow-chives",
@@ -3031,7 +3062,8 @@
     "aliases": [
       "黄韭"
     ],
-    "seasonKind": "设施上市参考"
+    "seasonKind": "设施上市参考",
+    "group": "aromatics"
   },
   {
     "id": "garlic-greens",
@@ -3069,7 +3101,8 @@
     "notes": "月份采用长江流域11月至翌年4月蒜苗集中上市参考；此处蒜苗指青蒜，不指蒜薹。",
     "aliases": [
       "蒜苗"
-    ]
+    ],
+    "group": "aromatics"
   },
   {
     "id": "garlic-scapes",
@@ -3110,7 +3143,8 @@
     "aliases": [
       "蒜苔"
     ],
-    "seasonKind": "采收期参考"
+    "seasonKind": "采收期参考",
+    "group": "aromatics"
   },
   {
     "id": "scallion",
@@ -3150,7 +3184,8 @@
     "notes": "兴化报道分别记录3月头茬和5月末茬春葱；3—5月是该地春葱的合并参考，其他茬口另计。",
     "aliases": [
       "香葱"
-    ]
+    ],
+    "group": "aromatics"
   },
   {
     "id": "welsh-onion",
@@ -3182,7 +3217,8 @@
     "checkedAt": "2026-11-01",
     "notes": "月份仅取甘肃高台10月集中采收实例；冬贮大葱及其他产区的早晚茬供应另计。",
     "aliases": [],
-    "seasonKind": "区域采收参考"
+    "seasonKind": "区域采收参考",
+    "group": "aromatics"
   },
   {
     "id": "garlic",
@@ -3216,7 +3252,8 @@
     "aliases": [
       "蒜头"
     ],
-    "seasonKind": "新蒜采收参考"
+    "seasonKind": "新蒜采收参考",
+    "group": "aromatics"
   },
   {
     "id": "ginger",
@@ -3252,7 +3289,8 @@
       "姜",
       "鲜姜"
     ],
-    "seasonKind": "区域采收参考"
+    "seasonKind": "区域采收参考",
+    "group": "aromatics"
   },
   {
     "id": "onion",
@@ -3287,7 +3325,8 @@
       "圆葱",
       "葱头"
     ],
-    "seasonKind": "区域采收参考"
+    "seasonKind": "区域采收参考",
+    "group": "aromatics"
   },
   {
     "id": "chili-pepper",
@@ -3324,7 +3363,8 @@
       "尖椒",
       "小米椒"
     ],
-    "seasonKind": "设施上市参考"
+    "seasonKind": "设施上市参考",
+    "group": "gourd"
   },
   {
     "id": "luffa",
@@ -3364,7 +3404,8 @@
     ],
     "checkedAt": "2026-11-01",
     "notes": "月份取从化良口和丰村6—10月采摘窗口；不同地区、品种和设施生产可能不同。",
-    "aliases": []
+    "aliases": [],
+    "group": "gourd"
   },
   {
     "id": "zucchini",
@@ -3407,7 +3448,8 @@
     "aliases": [
       "角瓜"
     ],
-    "seasonKind": "设施上市参考"
+    "seasonKind": "设施上市参考",
+    "group": "gourd"
   },
   {
     "id": "chayote",
@@ -3446,7 +3488,8 @@
     "aliases": [
       "合掌瓜",
       "洋丝瓜"
-    ]
+    ],
+    "group": "gourd"
   },
   {
     "id": "okra",
@@ -3488,7 +3531,8 @@
     "notes": "月份取崇明6—10月采摘窗口；不同品种大小差异明显，不把固定长度当通用嫩度保证。",
     "aliases": [
       "羊角豆"
-    ]
+    ],
+    "group": "gourd"
   },
   {
     "id": "yardlong-bean",
@@ -3525,7 +3569,8 @@
     "aliases": [
       "长豆角",
       "豆角"
-    ]
+    ],
+    "group": "beans"
   },
   {
     "id": "snow-pea",
@@ -3557,7 +3602,8 @@
     ],
     "checkedAt": "2026-11-01",
     "notes": "东台华灶村报道4月下旬薹菜结束后荷兰豆接棒、约两个月后清田；5—6月取完整月份作保守窗口。",
-    "aliases": []
+    "aliases": [],
+    "group": "beans"
   },
   {
     "id": "peas",
@@ -3595,7 +3641,8 @@
     "notes": "全国农技指导意见列南方鲜食豌豆11月至翌年4月采摘；北方春播鲜豌豆另有窗口。",
     "aliases": [
       "青豌豆"
-    ]
+    ],
+    "group": "beans"
   },
   {
     "id": "edamame",
@@ -3629,7 +3676,8 @@
     "notes": "月份取上海嘉定牛踏扁9—10月成熟窗口；这是晚熟品种示例，其他早中熟毛豆可更早上市。",
     "aliases": [
       "鲜食大豆"
-    ]
+    ],
+    "group": "beans"
   },
   {
     "id": "fava-bean",
@@ -3672,7 +3720,8 @@
     "notes": "月份仅取常熟立夏前后新鲜蚕豆上市参考；南方早熟、设施春化及不同品种窗口另计。",
     "aliases": [
       "胡豆"
-    ]
+    ],
+    "group": "beans"
   },
   {
     "id": "sweet-corn",
@@ -3715,7 +3764,8 @@
     "aliases": [
       "水果玉米"
     ],
-    "seasonKind": "分期采收参考"
+    "seasonKind": "分期采收参考",
+    "group": "beans"
   },
   {
     "id": "taro",
@@ -3752,7 +3802,8 @@
     "aliases": [
       "芋艿"
     ],
-    "seasonKind": "区域采收参考"
+    "seasonKind": "区域采收参考",
+    "group": "root"
   },
   {
     "id": "celtuce",
@@ -3791,7 +3842,8 @@
     "aliases": [
       "茎用莴苣",
       "青笋"
-    ]
+    ],
+    "group": "root"
   },
   {
     "id": "water-bamboo",
@@ -3834,7 +3886,8 @@
     "aliases": [
       "茭笋",
       "水笋"
-    ]
+    ],
+    "group": "root"
   },
   {
     "id": "bamboo-shoots",
@@ -3873,7 +3926,8 @@
     "aliases": [
       "春笋",
       "冬笋"
-    ]
+    ],
+    "group": "root"
   },
   {
     "id": "water-chestnut",
@@ -3914,7 +3968,8 @@
     "notes": "月份取湖北技术资料12月至翌年3月采收；留地保存和产区差异会影响到货时段。",
     "aliases": [
       "马蹄"
-    ]
+    ],
+    "group": "root"
   },
   {
     "id": "shiitake",
@@ -3959,7 +4014,8 @@
     "aliases": [
       "香菇"
     ],
-    "seasonKind": "设施供应参考"
+    "seasonKind": "设施供应参考",
+    "group": "mushroom"
   },
   {
     "id": "oyster-mushroom",
@@ -4004,7 +4060,8 @@
     "aliases": [
       "蚝菇"
     ],
-    "seasonKind": "设施供应参考"
+    "seasonKind": "设施供应参考",
+    "group": "mushroom"
   },
   {
     "id": "enoki",
@@ -4049,7 +4106,8 @@
     "aliases": [
       "金菇"
     ],
-    "seasonKind": "设施供应参考"
+    "seasonKind": "设施供应参考",
+    "group": "mushroom"
   },
   {
     "id": "king-oyster-mushroom",
@@ -4092,7 +4150,8 @@
     "checkedAt": "2026-11-01",
     "notes": "月份表示人工调控栽培的设施供应参考，不是野生菌自然采收季；家庭购买后仍需冷藏并尽快食用。",
     "aliases": [],
-    "seasonKind": "设施供应参考"
+    "seasonKind": "设施供应参考",
+    "group": "mushroom"
   },
   {
     "id": "button-mushroom",
@@ -4138,6 +4197,7 @@
       "双孢蘑菇",
       "白蘑菇"
     ],
-    "seasonKind": "设施供应参考"
+    "seasonKind": "设施供应参考",
+    "group": "mushroom"
   }
 ]

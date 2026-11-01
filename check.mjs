@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {readFileSync, existsSync} from 'node:fs';
-import {filterProduce, monthLabel, nearestCity, readViewState} from './dist/logic.mjs';
+import {filterProduce, monthLabel, nearestCity, readViewState, vegetableGroups} from './dist/logic.mjs';
 
 const read = file => JSON.parse(readFileSync(new URL(`./dist/${file}`,import.meta.url),'utf8'));
 const items = read('produce.json');
@@ -18,6 +18,8 @@ for(const item of items) {
   assert.ok(item.months.length>0 && item.months.every(m=>Number.isInteger(m)&&m>=1&&m<=12),item.id);
   assert.equal(new Set(item.months).size,item.months.length,item.id);
   assert.ok(item.pick.length>=2 && item.sources.length>0,item.id);
+  if(item.category === 'vegetable') assert.ok(Object.hasOwn(vegetableGroups,item.group),`Missing vegetable group ${item.id}`);
+  else assert.equal(item.group,undefined,`Unexpected vegetable group ${item.id}`);
   for(const kind of ['season','guide']) assert.ok(item.sources.some(s=>s.kind===kind),`${item.id}: missing ${kind} source`);
   for(const source of item.sources) {assert.match(source.url,/^https:\/\//);assert.ok(source.title.trim());}
   const photo=photos.find(p=>p.id===item.id);
@@ -41,13 +43,22 @@ assert.equal(nearestCity(31.23,121.47,cities).name,'上海市');
 assert.equal(nearestCity(0,0,cities),null);
 assert.equal(nearestCity(NaN,120,cities),null);
 assert.deepEqual(readViewState('?month=6&type=fruit&q=西红柿&view=all',10), {
-  month:6,category:'fruit',query:'西红柿',mode:'all'
+  month:6,category:'fruit',group:'all',query:'西红柿',mode:'all'
 });
 assert.deepEqual(readViewState('?month=13&type=invalid&view=invalid',10), {
-  month:10,category:'all',query:'',mode:'seasonal'
+  month:10,category:'all',group:'all',query:'',mode:'seasonal'
 });
 assert.equal(readViewState('?month=1.5',10).month,10);
 assert.equal(readViewState('?q='+'a'.repeat(100),10).query.length,60);
+assert.equal(readViewState('?type=vegetable&group=mushroom',10).group,'mushroom');
+assert.equal(readViewState('?type=fruit&group=mushroom',10).group,'all');
+assert.equal(readViewState('?type=vegetable&group=invalid',10).group,'all');
+const grouped=Object.keys(vegetableGroups).flatMap(group=>filterProduce(items,{month:1,mode:'all',category:'vegetable',group}));
+assert.equal(grouped.length,60);
+assert.equal(new Set(grouped.map(item=>item.id)).size,60);
+assert.equal(filterProduce(items,{month:1,mode:'all',category:'vegetable',group:'mushroom'}).length,5);
+assert.equal(filterProduce(items,{month:1,mode:'all',category:'vegetable',group:'root',query:'香菇'}).length,0);
+assert.equal(filterProduce(items,{month:1,mode:'all',query:'香菇'})[0].id,'shiitake');
 assert.equal(filterProduce(items,{month:10,mode:'all',query:'西红柿'})[0].id,'tomato');
 for(const [query,id] of [['凤梨','pineapple'],['蒜苗','garlic-greens'],['香菇','shiitake'],['双孢蘑菇','button-mushroom']]) {
   assert.ok(filterProduce(items,{month:1,mode:'all',query}).some(item=>item.id===id),`Missing alias ${query}`);

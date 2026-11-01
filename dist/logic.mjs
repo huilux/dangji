@@ -1,7 +1,10 @@
-export function filterProduce(items, {month, category = 'all', query = '', mode = 'seasonal'}) {
+export const vegetableGroups = {leafy:'叶菜花菜', root:'根茎类', gourd:'瓜果类', beans:'鲜豆玉米', mushroom:'菌菇类', aromatics:'葱姜蒜香料'};
+
+export function filterProduce(items, {month, category = 'all', group = 'all', query = '', mode = 'seasonal'}) {
   const q = query.trim().toLocaleLowerCase();
   return items.filter(item => (mode === 'all' || item.months.includes(month)) &&
     (category === 'all' || item.category === category) &&
+    (group === 'all' || item.group === group) &&
     (!q || [item.name, item.origins, ...(item.aliases || [])].join(' ').toLocaleLowerCase().includes(q)));
 }
 
@@ -33,9 +36,11 @@ export function readViewState(search, currentMonth) {
   const params = new URLSearchParams(search);
   const month = Number(params.get('month'));
   const category = params.get('type');
+  const group = params.get('group');
   return {
     month: Number.isInteger(month) && month >= 1 && month <= 12 ? month : currentMonth,
     category: ['fruit', 'vegetable'].includes(category) ? category : 'all',
+    group: category === 'vegetable' && Object.hasOwn(vegetableGroups, group) ? group : 'all',
     query: (params.get('q') || '').slice(0, 60),
     mode: params.get('view') === 'all' ? 'all' : 'seasonal'
   };
